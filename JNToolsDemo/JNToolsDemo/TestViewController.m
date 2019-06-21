@@ -7,6 +7,7 @@
 //  测试
 
 #import "TestViewController.h"
+#import "JNCommon.h"
 
 @interface TestViewController ()
 
@@ -18,6 +19,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"测试页";
+    JNLog(@"哈哈".jn_md5String);
+    self.view.backgroundColor = JNRandomColor;
 }
 
 @end

@@ -15,6 +15,7 @@
 		61EDD49422BC7366009F83A6 /* JNToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD49322BC7366009F83A6 /* JNToolsDemoTests.m */; };
 		61EDD49F22BC7367009F83A6 /* JNToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD49E22BC7367009F83A6 /* JNToolsDemoUITests.m */; };
 		61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD4AD22BC73ED009F83A6 /* TestViewController.m */; };
+		61EDD4B722BC7B47009F83A6 /* NSString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,10 @@
 		61EDD4A022BC7367009F83A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61EDD4AC22BC73ED009F83A6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		61EDD4AD22BC73ED009F83A6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		61EDD4B222BC7830009F83A6 /* JNToolsDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNToolsDefine.h; sourceTree = "<group>"; };
+		61EDD4B322BC789B009F83A6 /* JNCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNCommon.h; sourceTree = "<group>"; };
+		61EDD4B522BC7B47009F83A6 /* NSString+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JNExtension.h"; sourceTree = "<group>"; };
+		61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		61EDD47922BC7362009F83A6 /* JNToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				61EDD4AF22BC768A009F83A6 /* JNTools */,
 				61EDD47A22BC7362009F83A6 /* AppDelegate.h */,
 				61EDD47B22BC7362009F83A6 /* AppDelegate.m */,
 				61EDD4AC22BC73ED009F83A6 /* TestViewController.h */,
@@ -130,6 +136,41 @@
 				61EDD4A022BC7367009F83A6 /* Info.plist */,
 			);
 			path = JNToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		61EDD4AF22BC768A009F83A6 /* JNTools */ = {
+			isa = PBXGroup;
+			children = (
+				61EDD4B322BC789B009F83A6 /* JNCommon.h */,
+				61EDD4B122BC7740009F83A6 /* Category */,
+				61EDD4B022BC772C009F83A6 /* Define */,
+				61EDD4B422BC7B21009F83A6 /* JNTool */,
+			);
+			path = JNTools;
+			sourceTree = "<group>";
+		};
+		61EDD4B022BC772C009F83A6 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				61EDD4B222BC7830009F83A6 /* JNToolsDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		61EDD4B122BC7740009F83A6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				61EDD4B522BC7B47009F83A6 /* NSString+JNExtension.h */,
+				61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		61EDD4B422BC7B21009F83A6 /* JNTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JNTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */,
+				61EDD4B722BC7B47009F83A6 /* NSString+JNExtension.m in Sources */,
 				61EDD48A22BC7366009F83A6 /* main.m in Sources */,
 				61EDD47C22BC7362009F83A6 /* AppDelegate.m in Sources */,
 			);
