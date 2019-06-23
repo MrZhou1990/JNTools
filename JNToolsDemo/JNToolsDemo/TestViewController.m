@@ -19,8 +19,11 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"测试页";
-    JNLog(@"哈哈".jn_md5String);
-    self.view.backgroundColor = JNRandomColor;
+    [self jn_testMethod];
+}
+
+- (void)jn_testMethod {
+
 }
 
 @end

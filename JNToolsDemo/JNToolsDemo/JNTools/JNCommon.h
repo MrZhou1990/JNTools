@@ -13,6 +13,9 @@
 #import "JNToolsDefine.h"
 /** 分类 */
 #import "NSString+JNExtension.h"
+#import "UIColor+JNExtension.h"
+#import "NSAttributedString+JNExtension.h"
+#import "UIView+JNExtension.h"
 /** 工具 */
 
 #endif /* JNCommon_h */
