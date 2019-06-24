@@ -11,6 +11,8 @@
 		6149D35422C05DEE00583AA4 /* UILabel+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */; };
 		6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */; };
 		6149D35A22C0604700583AA4 /* UIImageView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */; };
+		6149D35D22C070ED00583AA4 /* JNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35C22C070ED00583AA4 /* JNNetworkManager.m */; };
+		6149D36022C075EC00583AA4 /* MBProgressHUD+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35F22C075EC00583AA4 /* MBProgressHUD+JNExtension.m */; };
 		61D3DC5822BF48B1002FA2E0 /* UIColor+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */; };
 		61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5A22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m */; };
 		61D3DC5E22BF4B30002FA2E0 /* UIView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5D22BF4B30002FA2E0 /* UIView+JNExtension.m */; };
@@ -54,6 +56,10 @@
 		6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JNExtension.m"; sourceTree = "<group>"; };
 		6149D35822C0604700583AA4 /* UIImageView+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JNExtension.h"; sourceTree = "<group>"; };
 		6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JNExtension.m"; sourceTree = "<group>"; };
+		6149D35B22C070ED00583AA4 /* JNNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNNetworkManager.h; sourceTree = "<group>"; };
+		6149D35C22C070ED00583AA4 /* JNNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNNetworkManager.m; sourceTree = "<group>"; };
+		6149D35E22C075EC00583AA4 /* MBProgressHUD+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JNExtension.h"; sourceTree = "<group>"; };
+		6149D35F22C075EC00583AA4 /* MBProgressHUD+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JNExtension.m"; sourceTree = "<group>"; };
 		61D3DC5622BF48B1002FA2E0 /* UIColor+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JNExtension.h"; sourceTree = "<group>"; };
 		61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JNExtension.m"; sourceTree = "<group>"; };
 		61D3DC5922BF49B8002FA2E0 /* NSAttributedString+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JNExtension.h"; sourceTree = "<group>"; };
@@ -207,6 +213,8 @@
 				6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */,
 				6149D35822C0604700583AA4 /* UIImageView+JNExtension.h */,
 				6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */,
+				6149D35E22C075EC00583AA4 /* MBProgressHUD+JNExtension.h */,
+				6149D35F22C075EC00583AA4 /* MBProgressHUD+JNExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -216,6 +224,8 @@
 			children = (
 				61D3DC5F22BF4B95002FA2E0 /* JNTool.h */,
 				61D3DC6022BF4B95002FA2E0 /* JNTool.m */,
+				6149D35B22C070ED00583AA4 /* JNNetworkManager.h */,
+				6149D35C22C070ED00583AA4 /* JNNetworkManager.m */,
 			);
 			path = JNTool;
 			sourceTree = "<group>";
@@ -392,6 +402,8 @@
 				61D3DC5E22BF4B30002FA2E0 /* UIView+JNExtension.m in Sources */,
 				61D3DC6122BF4B95002FA2E0 /* JNTool.m in Sources */,
 				6149D35122C05CA400583AA4 /* UIImage+JNExtension.m in Sources */,
+				6149D36022C075EC00583AA4 /* MBProgressHUD+JNExtension.m in Sources */,
+				6149D35D22C070ED00583AA4 /* JNNetworkManager.m in Sources */,
 				61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */,
 				6149D35A22C0604700583AA4 /* UIImageView+JNExtension.m in Sources */,
 				6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */,
@@ -576,7 +588,10 @@
 				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -592,7 +607,10 @@
 				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -606,7 +624,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,7 +643,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -635,7 +661,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -649,7 +679,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
