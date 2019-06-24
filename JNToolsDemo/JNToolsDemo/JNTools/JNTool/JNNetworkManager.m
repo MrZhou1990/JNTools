@@ -17,6 +17,8 @@
 #define IP_ADDR_IPv4    @"ipv4"
 #define IP_ADDR_IPv6    @"ipv6"
 /* -----获取终端IP地址用----- */
+#import <AFNetworking.h>
+#import "MBProgressHUD+JNExtension.h"
 
 @implementation JNNetworkManager
 
@@ -74,6 +76,82 @@
     return [addresses count] ? addresses : nil;
 }
 
+#pragma mark - 网络请求封装
++ (AFHTTPSessionManager *)jn_setupManager {
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    [manager.requestSerializer setTimeoutInterval:30];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:
+                                                         @"text/plain",
+                                                         @"text/json",
+                                                         @"application/json",
+                                                         @"text/javascript",
+                                                         @"text/html",
+                                                         @"application/javascript",
+                                                         @"text/js",
+                                                         nil];
+    return manager;
+}
+// 没有加载等待的GET请求
++ (void)jn_getRequestWithUrlString:(NSString *)urlString
+                        parameters:(id)parameters
+                           success:(void (^) (id responObject))success
+                           failure:(void (^) (NSError *error))failure {
+    AFHTTPSessionManager *manager = [self jn_setupManager];
+    // 发送get请求
+    [manager GET:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        success(responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        failure(error);
+    }];
+}
 
+// 有加载等待的GET请求
++ (void)jn_getRequestWithUrlString:(NSString *)urlString
+                        parameters:(id)parameters
+                        loadString:(NSString *)loadString
+                            toView:(UIView *)view
+                           success:(void (^) (id responObject))success
+                           failure:(void (^) (NSError *error))failure
+{
+    [MBProgressHUD jn_loadingMessage:loadString toView:view];
+    [self jn_getRequestWithUrlString:urlString parameters:parameters success:^(id responObject) {
+        [MBProgressHUD jn_hideHUDForView:view];
+        success(responObject);
+    } failure:^(NSError *error) {
+        [MBProgressHUD jn_hideHUDForView:view];
+        failure(error);
+    }];
+}
+
+// 没有加载等待的POST请求
++ (void)jn_postRequestWithUrlString:(NSString *)urlString
+                         parameters:(id)parameters
+                            success:(void (^) (id responObject))success
+                            failure:(void (^) (NSError *error))failure {
+    AFHTTPSessionManager *manager = [self jn_setupManager];
+    // 发送post请求
+    [manager POST:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        success(responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        failure(error);
+    }];
+}
+
+// 有加载等待的POST请求
++ (void)jn_postRequestWithUrlString:(NSString *)urlString
+                         parameters:(id)parameters
+                         loadString:(NSString *)loadString
+                             toView:(UIView *)view
+                            success:(void (^) (id responObject))success
+                            failure:(void (^) (NSError *error))failure {
+    [MBProgressHUD jn_loadingMessage:loadString toView:view];
+    [self jn_postRequestWithUrlString:urlString parameters:parameters success:^(id responObject) {
+        [MBProgressHUD jn_hideHUDForView:view];
+        success(responObject);
+    } failure:^(NSError *error) {
+        [MBProgressHUD jn_hideHUDForView:view];
+        failure(error);
+    }];
+}
 
 @end
