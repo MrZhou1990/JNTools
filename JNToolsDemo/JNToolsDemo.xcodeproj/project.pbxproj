@@ -10,6 +10,7 @@
 		6149D35122C05CA400583AA4 /* UIImage+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */; };
 		6149D35422C05DEE00583AA4 /* UILabel+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */; };
 		6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */; };
+		6149D35A22C0604700583AA4 /* UIImageView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */; };
 		61D3DC5822BF48B1002FA2E0 /* UIColor+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */; };
 		61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5A22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m */; };
 		61D3DC5E22BF4B30002FA2E0 /* UIView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5D22BF4B30002FA2E0 /* UIView+JNExtension.m */; };
@@ -23,6 +24,7 @@
 		61EDD49F22BC7367009F83A6 /* JNToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD49E22BC7367009F83A6 /* JNToolsDemoUITests.m */; };
 		61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD4AD22BC73ED009F83A6 /* TestViewController.m */; };
 		61EDD4B722BC7B47009F83A6 /* NSString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */; };
+		71CDD63D5A39D51FE30D5CBE /* libPods-JNToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JNToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6149D34F22C05CA400583AA4 /* UIImage+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JNExtension.h"; sourceTree = "<group>"; };
 		6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JNExtension.m"; sourceTree = "<group>"; };
 		6149D35222C05DEE00583AA4 /* UILabel+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+JNExtension.h"; sourceTree = "<group>"; };
 		6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JNExtension.m"; sourceTree = "<group>"; };
 		6149D35522C05E8600583AA4 /* NSDate+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JNExtension.h"; sourceTree = "<group>"; };
 		6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JNExtension.m"; sourceTree = "<group>"; };
+		6149D35822C0604700583AA4 /* UIImageView+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JNExtension.h"; sourceTree = "<group>"; };
+		6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JNExtension.m"; sourceTree = "<group>"; };
 		61D3DC5622BF48B1002FA2E0 /* UIColor+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JNExtension.h"; sourceTree = "<group>"; };
 		61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JNExtension.m"; sourceTree = "<group>"; };
 		61D3DC5922BF49B8002FA2E0 /* NSAttributedString+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JNExtension.h"; sourceTree = "<group>"; };
@@ -77,6 +82,8 @@
 		61EDD4B322BC789B009F83A6 /* JNCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNCommon.h; sourceTree = "<group>"; };
 		61EDD4B522BC7B47009F83A6 /* NSString+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JNExtension.h"; sourceTree = "<group>"; };
 		61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNExtension.m"; sourceTree = "<group>"; };
+		776E03C0244066E0FC8741AC /* Pods-JNToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNToolsDemo/Pods-JNToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D22E78A1BC11E4651E8E349E /* Pods-JNToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNToolsDemo/Pods-JNToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CDD63D5A39D51FE30D5CBE /* libPods-JNToolsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +119,8 @@
 				61EDD49222BC7366009F83A6 /* JNToolsDemoTests */,
 				61EDD49D22BC7367009F83A6 /* JNToolsDemoUITests */,
 				61EDD47822BC7362009F83A6 /* Products */,
+				C7A57689112EE10887FCA88E /* Pods */,
+				D17D99D271E433EB42601EA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +205,8 @@
 				6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */,
 				6149D35522C05E8600583AA4 /* NSDate+JNExtension.h */,
 				6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */,
+				6149D35822C0604700583AA4 /* UIImageView+JNExtension.h */,
+				6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -208,6 +220,23 @@
 			path = JNTool;
 			sourceTree = "<group>";
 		};
+		C7A57689112EE10887FCA88E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D22E78A1BC11E4651E8E349E /* Pods-JNToolsDemo.debug.xcconfig */,
+				776E03C0244066E0FC8741AC /* Pods-JNToolsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D17D99D271E433EB42601EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61EDD4A322BC7367009F83A6 /* Build configuration list for PBXNativeTarget "JNToolsDemo" */;
 			buildPhases = (
+				74E189F840BF724865725922 /* [CP] Check Pods Manifest.lock */,
 				61EDD47322BC7362009F83A6 /* Sources */,
 				61EDD47422BC7362009F83A6 /* Frameworks */,
 				61EDD47522BC7362009F83A6 /* Resources */,
@@ -333,6 +363,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74E189F840BF724865725922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JNToolsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61EDD47322BC7362009F83A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -342,6 +393,7 @@
 				61D3DC6122BF4B95002FA2E0 /* JNTool.m in Sources */,
 				6149D35122C05CA400583AA4 /* UIImage+JNExtension.m in Sources */,
 				61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */,
+				6149D35A22C0604700583AA4 /* UIImageView+JNExtension.m in Sources */,
 				6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */,
 				6149D35422C05DEE00583AA4 /* UILabel+JNExtension.m in Sources */,
 				61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */,
@@ -517,16 +569,14 @@
 		};
 		61EDD4A422BC7367009F83A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22E78A1BC11E4651E8E349E /* Pods-JNToolsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -535,16 +585,14 @@
 		};
 		61EDD4A522BC7367009F83A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776E03C0244066E0FC8741AC /* Pods-JNToolsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -558,11 +606,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -577,11 +621,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,11 +635,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -613,11 +649,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96K2C772E;
 				INFOPLIST_FILE = JNToolsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.znzlkj.JNToolsDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
