@@ -19,11 +19,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"测试页";
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self jn_testMethod];
 }
 
 - (void)jn_testMethod {
-
+    
 }
 
 @end
