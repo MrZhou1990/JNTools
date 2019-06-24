@@ -17,7 +17,7 @@
 #define IP_ADDR_IPv4    @"ipv4"
 #define IP_ADDR_IPv6    @"ipv6"
 /* -----获取终端IP地址用----- */
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 #import "MBProgressHUD+JNExtension.h"
 
 @implementation JNNetworkManager
