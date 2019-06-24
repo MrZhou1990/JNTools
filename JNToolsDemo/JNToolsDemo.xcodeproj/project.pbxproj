@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6149D35122C05CA400583AA4 /* UIImage+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */; };
+		6149D35422C05DEE00583AA4 /* UILabel+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */; };
+		6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */; };
 		61D3DC5822BF48B1002FA2E0 /* UIColor+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */; };
 		61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5A22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m */; };
 		61D3DC5E22BF4B30002FA2E0 /* UIView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5D22BF4B30002FA2E0 /* UIView+JNExtension.m */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6149D34F22C05CA400583AA4 /* UIImage+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JNExtension.h"; sourceTree = "<group>"; };
+		6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JNExtension.m"; sourceTree = "<group>"; };
+		6149D35222C05DEE00583AA4 /* UILabel+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+JNExtension.h"; sourceTree = "<group>"; };
+		6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JNExtension.m"; sourceTree = "<group>"; };
+		6149D35522C05E8600583AA4 /* NSDate+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JNExtension.h"; sourceTree = "<group>"; };
+		6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JNExtension.m"; sourceTree = "<group>"; };
 		61D3DC5622BF48B1002FA2E0 /* UIColor+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JNExtension.h"; sourceTree = "<group>"; };
 		61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JNExtension.m"; sourceTree = "<group>"; };
 		61D3DC5922BF49B8002FA2E0 /* NSAttributedString+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JNExtension.h"; sourceTree = "<group>"; };
@@ -180,6 +189,12 @@
 				61D3DC5A22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m */,
 				61D3DC5C22BF4B30002FA2E0 /* UIView+JNExtension.h */,
 				61D3DC5D22BF4B30002FA2E0 /* UIView+JNExtension.m */,
+				6149D34F22C05CA400583AA4 /* UIImage+JNExtension.h */,
+				6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */,
+				6149D35222C05DEE00583AA4 /* UILabel+JNExtension.h */,
+				6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */,
+				6149D35522C05E8600583AA4 /* NSDate+JNExtension.h */,
+				6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -325,7 +340,10 @@
 			files = (
 				61D3DC5E22BF4B30002FA2E0 /* UIView+JNExtension.m in Sources */,
 				61D3DC6122BF4B95002FA2E0 /* JNTool.m in Sources */,
+				6149D35122C05CA400583AA4 /* UIImage+JNExtension.m in Sources */,
 				61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */,
+				6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */,
+				6149D35422C05DEE00583AA4 /* UILabel+JNExtension.m in Sources */,
 				61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */,
 				61EDD4B722BC7B47009F83A6 /* NSString+JNExtension.m in Sources */,
 				61EDD48A22BC7366009F83A6 /* main.m in Sources */,

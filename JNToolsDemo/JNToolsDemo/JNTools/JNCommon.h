@@ -16,6 +16,8 @@
 #import "UIColor+JNExtension.h"
 #import "NSAttributedString+JNExtension.h"
 #import "UIView+JNExtension.h"
+#import "UIImage+JNExtension.h"
+#import "UILabel+JNExtension.h"
 /** 工具 */
 
 #endif /* JNCommon_h */
