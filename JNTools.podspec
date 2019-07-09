@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.subspec 'JNTool' do |subJNTool|
     subJNTool.source_files = "JNTools/JNTool/*.{h,m}"
     subJNTool.dependency "AFNetworking", "3.2.1"
+    subJNTool.dependency "JNTools/Category"
   end  
 end

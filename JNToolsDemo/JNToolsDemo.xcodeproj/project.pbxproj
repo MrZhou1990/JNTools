@@ -146,10 +146,10 @@
 		61909E8E22D41F5800EC8773 /* JNTool */ = {
 			isa = PBXGroup;
 			children = (
-				61909E8F22D41F5800EC8773 /* JNTool.m */,
+				61909E9222D41F5800EC8773 /* JNNetworkManager.h */,
 				61909E9022D41F5800EC8773 /* JNNetworkManager.m */,
 				61909E9122D41F5800EC8773 /* JNTool.h */,
-				61909E9222D41F5800EC8773 /* JNNetworkManager.h */,
+				61909E8F22D41F5800EC8773 /* JNTool.m */,
 			);
 			path = JNTool;
 			sourceTree = "<group>";
@@ -165,24 +165,24 @@
 		61909E9522D41F5800EC8773 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				61909E9622D41F5800EC8773 /* UIView+JNExtension.h */,
-				61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */,
-				61909E9822D41F5900EC8773 /* UIImageView+JNExtension.h */,
-				61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */,
+				61909EA522D41F5900EC8773 /* MBProgressHUD+JNExtension.h */,
 				61909E9A22D41F5900EC8773 /* MBProgressHUD+JNExtension.m */,
-				61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */,
+				61909EA622D41F5900EC8773 /* NSAttributedString+JNExtension.h */,
+				61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */,
+				61909EA222D41F5900EC8773 /* NSDate+JNExtension.h */,
 				61909E9C22D41F5900EC8773 /* NSDate+JNExtension.m */,
 				61909E9D22D41F5900EC8773 /* NSString+JNExtension.h */,
-				61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */,
-				61909E9F22D41F5900EC8773 /* UILabel+JNExtension.h */,
-				61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */,
-				61909EA122D41F5900EC8773 /* UIView+JNExtension.m */,
-				61909EA222D41F5900EC8773 /* NSDate+JNExtension.h */,
-				61909EA322D41F5900EC8773 /* UIColor+JNExtension.h */,
-				61909EA422D41F5900EC8773 /* UIImage+JNExtension.h */,
-				61909EA522D41F5900EC8773 /* MBProgressHUD+JNExtension.h */,
-				61909EA622D41F5900EC8773 /* NSAttributedString+JNExtension.h */,
 				61909EA722D41F5900EC8773 /* NSString+JNExtension.m */,
+				61909EA322D41F5900EC8773 /* UIColor+JNExtension.h */,
+				61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */,
+				61909EA422D41F5900EC8773 /* UIImage+JNExtension.h */,
+				61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */,
+				61909E9822D41F5900EC8773 /* UIImageView+JNExtension.h */,
+				61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */,
+				61909E9F22D41F5900EC8773 /* UILabel+JNExtension.h */,
+				61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */,
+				61909E9622D41F5800EC8773 /* UIView+JNExtension.h */,
+				61909EA122D41F5900EC8773 /* UIView+JNExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
