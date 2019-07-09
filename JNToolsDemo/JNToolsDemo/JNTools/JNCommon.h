@@ -22,7 +22,7 @@
 #import "UIImageView+JNExtension.h"
 #import "MBProgressHUD+JNExtension.h"
 /** 工具 */
-#import "JNTool/JNTool.h"
-#import "JNTool/JNNetworkManager.h"
+#import "JNTool.h"
+#import "JNNetworkManager.h"
 
 #endif /* JNCommon_h */

@@ -16,7 +16,7 @@
  @param preferIPv4 是否是IPV4
  @return 返回当前终端IP地址
  */
-+ (NSString *)jn_getIPAddress:(BOOL)preferIPv4;
++ (NSString *)jn_getIPAddressWithIPv4:(BOOL)preferIPv4;
 
 /**
  有加载等待的GET请求

@@ -23,7 +23,7 @@
 @implementation JNNetworkManager
 
 #pragma mark - 获取终端IP地址
-+ (NSString *)jn_getIPAddress:(BOOL)preferIPv4 {
++ (NSString *)jn_getIPAddressWithIPv4:(BOOL)preferIPv4 {
     /*
      需要引入一下头文件及定义宏
      #include <ifaddrs.h>

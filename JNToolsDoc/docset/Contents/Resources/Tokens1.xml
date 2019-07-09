@@ -13,11 +13,11 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/JNNetworkManager/jn_getIPAddress:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/JNNetworkManager/jn_getIPAddressWithIPv4:</TokenIdentifier>
 			<Abstract type="html">获取当前终端IP地址</Abstract>
 			<DeclaredIn>JNNetworkManager.h</DeclaredIn>
 			
-			<Declaration>+ (NSString *)jn_getIPAddress:(BOOL)preferIPv4</Declaration>
+			<Declaration>+ (NSString *)jn_getIPAddressWithIPv4:(BOOL)preferIPv4</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>preferIPv4</Name>
@@ -25,7 +25,7 @@
 				</Parameter>
 			</Parameters>
 			<ReturnValue><Abstract type="html">返回当前终端IP地址</Abstract></ReturnValue>
-			<Anchor>//api/name/jn_getIPAddress:</Anchor>
+			<Anchor>//api/name/jn_getIPAddressWithIPv4:</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		
