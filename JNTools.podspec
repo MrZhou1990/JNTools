@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
   s.source_files  = "JNTools/JNCommon.h"
   s.subspec 'Category' do |subCategory|
     subCategory.source_files = "JNTools/Category/*.{h,m}"
+    subCategory.dependency "SDWebImage", "5.0.6"
+    subCategory.dependency "MBProgressHUD", "1.1.0"
   end
   s.subspec 'Define' do |subDefine|
     subDefine.source_files = "JNTools/Define/*.h"
   end
   s.subspec 'JNTool' do |subJNTool|
     subJNTool.source_files = "JNTools/JNTool/*.{h,m}"
-  end
-  s.dependency "SDWebImage", "5.0.6"
-  s.dependency "MBProgressHUD", "1.1.0"
-  s.dependency "AFNetworking", "3.2.1"
+    subJNTool.dependency "AFNetworking", "3.2.1"
+  end  
 end
