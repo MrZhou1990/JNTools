@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JNNetworkManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JNNetworkManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JNNetworkManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JNNetworkManager/jn_getIPAddress:</TokenIdentifier>
+			<Abstract type="html">获取当前终端IP地址</Abstract>
+			<DeclaredIn>JNNetworkManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)jn_getIPAddress:(BOOL)preferIPv4</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>preferIPv4</Name>
+					<Abstract type="html">是否是IPV4</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">返回当前终端IP地址</Abstract></ReturnValue>
+			<Anchor>//api/name/jn_getIPAddress:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JNNetworkManager/jn_getRequestWithUrlString:parameters:success:failure:</TokenIdentifier>
+			<Abstract type="html">没有加载等待的GET请求</Abstract>
+			<DeclaredIn>JNNetworkManager.h</DeclaredIn>
+			
+			<Declaration>+ (void)jn_getRequestWithUrlString:(NSString *)urlString parameters:(id)parameters success:(void ( ^ ) ( id responObject ))success failure:(void ( ^ ) ( NSError *error ))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>urlString</Name>
+					<Abstract type="html">请求的接口</Abstract>
+				</Parameter><Parameter>
+					<Name>parameters</Name>
+					<Abstract type="html">请求的参数</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">成功回调</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">失败回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/jn_getRequestWithUrlString:parameters:success:failure:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JNNetworkManager/jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:</TokenIdentifier>
+			<Abstract type="html">有加载等待的GET请求</Abstract>
+			<DeclaredIn>JNNetworkManager.h</DeclaredIn>
+			
+			<Declaration>+ (void)jn_getRequestWithUrlString:(NSString *)urlString parameters:(id)parameters loadString:(NSString *)loadString toView:(UIView *)view success:(void ( ^ ) ( id responObject ))success failure:(void ( ^ ) ( NSError *error ))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>urlString</Name>
+					<Abstract type="html">请求的接口</Abstract>
+				</Parameter><Parameter>
+					<Name>parameters</Name>
+					<Abstract type="html">请求的参数</Abstract>
+				</Parameter><Parameter>
+					<Name>loadString</Name>
+					<Abstract type="html">等待的文字</Abstract>
+				</Parameter><Parameter>
+					<Name>view</Name>
+					<Abstract type="html">遮罩的图层</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">成功回调</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">失败回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JNNetworkManager/jn_postRequestWithUrlString:parameters:success:failure:</TokenIdentifier>
+			<Abstract type="html">没有加载等待的POST请求</Abstract>
+			<DeclaredIn>JNNetworkManager.h</DeclaredIn>
+			
+			<Declaration>+ (void)jn_postRequestWithUrlString:(NSString *)urlString parameters:(id)parameters success:(void ( ^ ) ( id responObject ))success failure:(void ( ^ ) ( NSError *error ))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>urlString</Name>
+					<Abstract type="html">请求的接口</Abstract>
+				</Parameter><Parameter>
+					<Name>parameters</Name>
+					<Abstract type="html">请求的参数</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">成功回调</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">失败回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/jn_postRequestWithUrlString:parameters:success:failure:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JNNetworkManager/jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:</TokenIdentifier>
+			<Abstract type="html">有加载等待的POST请求</Abstract>
+			<DeclaredIn>JNNetworkManager.h</DeclaredIn>
+			
+			<Declaration>+ (void)jn_postRequestWithUrlString:(NSString *)urlString parameters:(id)parameters loadString:(NSString *)loadString toView:(UIView *)view success:(void ( ^ ) ( id responObject ))success failure:(void ( ^ ) ( NSError *error ))failure</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>urlString</Name>
+					<Abstract type="html">请求的接口</Abstract>
+				</Parameter><Parameter>
+					<Name>parameters</Name>
+					<Abstract type="html">请求的参数</Abstract>
+				</Parameter><Parameter>
+					<Name>loadString</Name>
+					<Abstract type="html">等待的文字</Abstract>
+				</Parameter><Parameter>
+					<Name>view</Name>
+					<Abstract type="html">遮罩的图层</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">成功回调</Abstract>
+				</Parameter><Parameter>
+					<Name>failure</Name>
+					<Abstract type="html">失败回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

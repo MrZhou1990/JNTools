@@ -6,17 +6,32 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		613DDF2B22CC82610090ED1D /* JNToolsDoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 613DDF2C22CC82610090ED1D /* Build configuration list for PBXAggregateTarget "JNToolsDoc" */;
+			buildPhases = (
+				613DDF2F22CC827E0090ED1D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = JNToolsDoc;
+			productName = JNToolsDoc;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		6149D35122C05CA400583AA4 /* UIImage+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */; };
-		6149D35422C05DEE00583AA4 /* UILabel+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */; };
-		6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */; };
-		6149D35A22C0604700583AA4 /* UIImageView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */; };
-		6149D35D22C070ED00583AA4 /* JNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35C22C070ED00583AA4 /* JNNetworkManager.m */; };
-		6149D36022C075EC00583AA4 /* MBProgressHUD+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6149D35F22C075EC00583AA4 /* MBProgressHUD+JNExtension.m */; };
-		61D3DC5822BF48B1002FA2E0 /* UIColor+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */; };
-		61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5A22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m */; };
-		61D3DC5E22BF4B30002FA2E0 /* UIView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC5D22BF4B30002FA2E0 /* UIView+JNExtension.m */; };
-		61D3DC6122BF4B95002FA2E0 /* JNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D3DC6022BF4B95002FA2E0 /* JNTool.m */; };
+		61909EA922D41F5900EC8773 /* JNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E8F22D41F5800EC8773 /* JNTool.m */; };
+		61909EAA22D41F5900EC8773 /* JNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9022D41F5800EC8773 /* JNNetworkManager.m */; };
+		61909EAB22D41F5900EC8773 /* UILabel+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */; };
+		61909EAC22D41F5900EC8773 /* UIImage+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */; };
+		61909EAD22D41F5900EC8773 /* MBProgressHUD+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9A22D41F5900EC8773 /* MBProgressHUD+JNExtension.m */; };
+		61909EAE22D41F5900EC8773 /* UIColor+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */; };
+		61909EAF22D41F5900EC8773 /* NSDate+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9C22D41F5900EC8773 /* NSDate+JNExtension.m */; };
+		61909EB022D41F5900EC8773 /* NSAttributedString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */; };
+		61909EB122D41F5900EC8773 /* UIImageView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */; };
+		61909EB222D41F5900EC8773 /* UIView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909EA122D41F5900EC8773 /* UIView+JNExtension.m */; };
+		61909EB322D41F5900EC8773 /* NSString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909EA722D41F5900EC8773 /* NSString+JNExtension.m */; };
 		61EDD47C22BC7362009F83A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD47B22BC7362009F83A6 /* AppDelegate.m */; };
 		61EDD48222BC7362009F83A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EDD48022BC7362009F83A6 /* Main.storyboard */; };
 		61EDD48422BC7366009F83A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61EDD48322BC7366009F83A6 /* Assets.xcassets */; };
@@ -25,7 +40,6 @@
 		61EDD49422BC7366009F83A6 /* JNToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD49322BC7366009F83A6 /* JNToolsDemoTests.m */; };
 		61EDD49F22BC7367009F83A6 /* JNToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD49E22BC7367009F83A6 /* JNToolsDemoUITests.m */; };
 		61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD4AD22BC73ED009F83A6 /* TestViewController.m */; };
-		61EDD4B722BC7B47009F83A6 /* NSString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */; };
 		71CDD63D5A39D51FE30D5CBE /* libPods-JNToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -48,26 +62,30 @@
 
 /* Begin PBXFileReference section */
 		54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JNToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6149D34F22C05CA400583AA4 /* UIImage+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JNExtension.h"; sourceTree = "<group>"; };
-		6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JNExtension.m"; sourceTree = "<group>"; };
-		6149D35222C05DEE00583AA4 /* UILabel+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+JNExtension.h"; sourceTree = "<group>"; };
-		6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JNExtension.m"; sourceTree = "<group>"; };
-		6149D35522C05E8600583AA4 /* NSDate+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JNExtension.h"; sourceTree = "<group>"; };
-		6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JNExtension.m"; sourceTree = "<group>"; };
-		6149D35822C0604700583AA4 /* UIImageView+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JNExtension.h"; sourceTree = "<group>"; };
-		6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JNExtension.m"; sourceTree = "<group>"; };
-		6149D35B22C070ED00583AA4 /* JNNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNNetworkManager.h; sourceTree = "<group>"; };
-		6149D35C22C070ED00583AA4 /* JNNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNNetworkManager.m; sourceTree = "<group>"; };
-		6149D35E22C075EC00583AA4 /* MBProgressHUD+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JNExtension.h"; sourceTree = "<group>"; };
-		6149D35F22C075EC00583AA4 /* MBProgressHUD+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JNExtension.m"; sourceTree = "<group>"; };
-		61D3DC5622BF48B1002FA2E0 /* UIColor+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JNExtension.h"; sourceTree = "<group>"; };
-		61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JNExtension.m"; sourceTree = "<group>"; };
-		61D3DC5922BF49B8002FA2E0 /* NSAttributedString+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JNExtension.h"; sourceTree = "<group>"; };
-		61D3DC5A22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JNExtension.m"; sourceTree = "<group>"; };
-		61D3DC5C22BF4B30002FA2E0 /* UIView+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JNExtension.h"; sourceTree = "<group>"; };
-		61D3DC5D22BF4B30002FA2E0 /* UIView+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JNExtension.m"; sourceTree = "<group>"; };
-		61D3DC5F22BF4B95002FA2E0 /* JNTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNTool.h; sourceTree = "<group>"; };
-		61D3DC6022BF4B95002FA2E0 /* JNTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNTool.m; sourceTree = "<group>"; };
+		61909E8F22D41F5800EC8773 /* JNTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTool.m; sourceTree = "<group>"; };
+		61909E9022D41F5800EC8773 /* JNNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNNetworkManager.m; sourceTree = "<group>"; };
+		61909E9122D41F5800EC8773 /* JNTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTool.h; sourceTree = "<group>"; };
+		61909E9222D41F5800EC8773 /* JNNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNNetworkManager.h; sourceTree = "<group>"; };
+		61909E9422D41F5800EC8773 /* JNToolsDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNToolsDefine.h; sourceTree = "<group>"; };
+		61909E9622D41F5800EC8773 /* UIView+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JNExtension.h"; sourceTree = "<group>"; };
+		61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JNExtension.m"; sourceTree = "<group>"; };
+		61909E9822D41F5900EC8773 /* UIImageView+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JNExtension.h"; sourceTree = "<group>"; };
+		61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JNExtension.m"; sourceTree = "<group>"; };
+		61909E9A22D41F5900EC8773 /* MBProgressHUD+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JNExtension.m"; sourceTree = "<group>"; };
+		61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JNExtension.m"; sourceTree = "<group>"; };
+		61909E9C22D41F5900EC8773 /* NSDate+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JNExtension.m"; sourceTree = "<group>"; };
+		61909E9D22D41F5900EC8773 /* NSString+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JNExtension.h"; sourceTree = "<group>"; };
+		61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JNExtension.m"; sourceTree = "<group>"; };
+		61909E9F22D41F5900EC8773 /* UILabel+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JNExtension.h"; sourceTree = "<group>"; };
+		61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JNExtension.m"; sourceTree = "<group>"; };
+		61909EA122D41F5900EC8773 /* UIView+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JNExtension.m"; sourceTree = "<group>"; };
+		61909EA222D41F5900EC8773 /* NSDate+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JNExtension.h"; sourceTree = "<group>"; };
+		61909EA322D41F5900EC8773 /* UIColor+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JNExtension.h"; sourceTree = "<group>"; };
+		61909EA422D41F5900EC8773 /* UIImage+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JNExtension.h"; sourceTree = "<group>"; };
+		61909EA522D41F5900EC8773 /* MBProgressHUD+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JNExtension.h"; sourceTree = "<group>"; };
+		61909EA622D41F5900EC8773 /* NSAttributedString+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JNExtension.h"; sourceTree = "<group>"; };
+		61909EA722D41F5900EC8773 /* NSString+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNExtension.m"; sourceTree = "<group>"; };
+		61909EA822D41F5900EC8773 /* JNCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNCommon.h; sourceTree = "<group>"; };
 		61EDD47722BC7362009F83A6 /* JNToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EDD47A22BC7362009F83A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61EDD47B22BC7362009F83A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,10 +102,6 @@
 		61EDD4A022BC7367009F83A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61EDD4AC22BC73ED009F83A6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		61EDD4AD22BC73ED009F83A6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		61EDD4B222BC7830009F83A6 /* JNToolsDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNToolsDefine.h; sourceTree = "<group>"; };
-		61EDD4B322BC789B009F83A6 /* JNCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNCommon.h; sourceTree = "<group>"; };
-		61EDD4B522BC7B47009F83A6 /* NSString+JNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JNExtension.h"; sourceTree = "<group>"; };
-		61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNExtension.m"; sourceTree = "<group>"; };
 		776E03C0244066E0FC8741AC /* Pods-JNToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNToolsDemo/Pods-JNToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D22E78A1BC11E4651E8E349E /* Pods-JNToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNToolsDemo/Pods-JNToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +132,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61909E8D22D41F5800EC8773 /* JNTools */ = {
+			isa = PBXGroup;
+			children = (
+				61909E8E22D41F5800EC8773 /* JNTool */,
+				61909E9322D41F5800EC8773 /* Define */,
+				61909E9522D41F5800EC8773 /* Category */,
+				61909EA822D41F5900EC8773 /* JNCommon.h */,
+			);
+			path = JNTools;
+			sourceTree = "<group>";
+		};
+		61909E8E22D41F5800EC8773 /* JNTool */ = {
+			isa = PBXGroup;
+			children = (
+				61909E8F22D41F5800EC8773 /* JNTool.m */,
+				61909E9022D41F5800EC8773 /* JNNetworkManager.m */,
+				61909E9122D41F5800EC8773 /* JNTool.h */,
+				61909E9222D41F5800EC8773 /* JNNetworkManager.h */,
+			);
+			path = JNTool;
+			sourceTree = "<group>";
+		};
+		61909E9322D41F5800EC8773 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				61909E9422D41F5800EC8773 /* JNToolsDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		61909E9522D41F5800EC8773 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				61909E9622D41F5800EC8773 /* UIView+JNExtension.h */,
+				61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */,
+				61909E9822D41F5900EC8773 /* UIImageView+JNExtension.h */,
+				61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */,
+				61909E9A22D41F5900EC8773 /* MBProgressHUD+JNExtension.m */,
+				61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */,
+				61909E9C22D41F5900EC8773 /* NSDate+JNExtension.m */,
+				61909E9D22D41F5900EC8773 /* NSString+JNExtension.h */,
+				61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */,
+				61909E9F22D41F5900EC8773 /* UILabel+JNExtension.h */,
+				61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */,
+				61909EA122D41F5900EC8773 /* UIView+JNExtension.m */,
+				61909EA222D41F5900EC8773 /* NSDate+JNExtension.h */,
+				61909EA322D41F5900EC8773 /* UIColor+JNExtension.h */,
+				61909EA422D41F5900EC8773 /* UIImage+JNExtension.h */,
+				61909EA522D41F5900EC8773 /* MBProgressHUD+JNExtension.h */,
+				61909EA622D41F5900EC8773 /* NSAttributedString+JNExtension.h */,
+				61909EA722D41F5900EC8773 /* NSString+JNExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		61EDD46E22BC7362009F83A6 = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +212,7 @@
 		61EDD47922BC7362009F83A6 /* JNToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				61EDD4AF22BC768A009F83A6 /* JNTools */,
+				61909E8D22D41F5800EC8773 /* JNTools */,
 				61EDD47A22BC7362009F83A6 /* AppDelegate.h */,
 				61EDD47B22BC7362009F83A6 /* AppDelegate.m */,
 				61EDD4AC22BC73ED009F83A6 /* TestViewController.h */,
@@ -173,61 +242,6 @@
 				61EDD4A022BC7367009F83A6 /* Info.plist */,
 			);
 			path = JNToolsDemoUITests;
-			sourceTree = "<group>";
-		};
-		61EDD4AF22BC768A009F83A6 /* JNTools */ = {
-			isa = PBXGroup;
-			children = (
-				61EDD4B322BC789B009F83A6 /* JNCommon.h */,
-				61EDD4B122BC7740009F83A6 /* Category */,
-				61EDD4B022BC772C009F83A6 /* Define */,
-				61EDD4B422BC7B21009F83A6 /* JNTool */,
-			);
-			path = JNTools;
-			sourceTree = "<group>";
-		};
-		61EDD4B022BC772C009F83A6 /* Define */ = {
-			isa = PBXGroup;
-			children = (
-				61EDD4B222BC7830009F83A6 /* JNToolsDefine.h */,
-			);
-			path = Define;
-			sourceTree = "<group>";
-		};
-		61EDD4B122BC7740009F83A6 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				61EDD4B522BC7B47009F83A6 /* NSString+JNExtension.h */,
-				61EDD4B622BC7B47009F83A6 /* NSString+JNExtension.m */,
-				61D3DC5622BF48B1002FA2E0 /* UIColor+JNExtension.h */,
-				61D3DC5722BF48B1002FA2E0 /* UIColor+JNExtension.m */,
-				61D3DC5922BF49B8002FA2E0 /* NSAttributedString+JNExtension.h */,
-				61D3DC5A22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m */,
-				61D3DC5C22BF4B30002FA2E0 /* UIView+JNExtension.h */,
-				61D3DC5D22BF4B30002FA2E0 /* UIView+JNExtension.m */,
-				6149D34F22C05CA400583AA4 /* UIImage+JNExtension.h */,
-				6149D35022C05CA400583AA4 /* UIImage+JNExtension.m */,
-				6149D35222C05DEE00583AA4 /* UILabel+JNExtension.h */,
-				6149D35322C05DEE00583AA4 /* UILabel+JNExtension.m */,
-				6149D35522C05E8600583AA4 /* NSDate+JNExtension.h */,
-				6149D35622C05E8600583AA4 /* NSDate+JNExtension.m */,
-				6149D35822C0604700583AA4 /* UIImageView+JNExtension.h */,
-				6149D35922C0604700583AA4 /* UIImageView+JNExtension.m */,
-				6149D35E22C075EC00583AA4 /* MBProgressHUD+JNExtension.h */,
-				6149D35F22C075EC00583AA4 /* MBProgressHUD+JNExtension.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		61EDD4B422BC7B21009F83A6 /* JNTool */ = {
-			isa = PBXGroup;
-			children = (
-				61D3DC5F22BF4B95002FA2E0 /* JNTool.h */,
-				61D3DC6022BF4B95002FA2E0 /* JNTool.m */,
-				6149D35B22C070ED00583AA4 /* JNNetworkManager.h */,
-				6149D35C22C070ED00583AA4 /* JNNetworkManager.m */,
-			);
-			path = JNTool;
 			sourceTree = "<group>";
 		};
 		C7A57689112EE10887FCA88E /* Pods */ = {
@@ -313,6 +327,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Cloud;
 				TargetAttributes = {
+					613DDF2B22CC82610090ED1D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					61EDD47622BC7362009F83A6 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -342,6 +359,7 @@
 				61EDD47622BC7362009F83A6 /* JNToolsDemo */,
 				61EDD48E22BC7366009F83A6 /* JNToolsDemoTests */,
 				61EDD49922BC7367009F83A6 /* JNToolsDemoUITests */,
+				613DDF2B22CC82610090ED1D /* JNToolsDoc */,
 			);
 		};
 /* End PBXProject section */
@@ -374,6 +392,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		613DDF2F22CC827E0090ED1D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\n\ncompany=\"znzlkj\";\ncompanyID=\"com.znzlkj\";\ncompanyURL=\"https://www.zhiliangwang.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"../JNToolsDoc\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n--ignore \"Pods\" \\\n\"${PROJECT_DIR}\"\n";
+		};
 		74E189F840BF724865725922 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,19 +434,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61D3DC5E22BF4B30002FA2E0 /* UIView+JNExtension.m in Sources */,
-				61D3DC6122BF4B95002FA2E0 /* JNTool.m in Sources */,
-				6149D35122C05CA400583AA4 /* UIImage+JNExtension.m in Sources */,
-				6149D36022C075EC00583AA4 /* MBProgressHUD+JNExtension.m in Sources */,
-				6149D35D22C070ED00583AA4 /* JNNetworkManager.m in Sources */,
-				61D3DC5B22BF49B8002FA2E0 /* NSAttributedString+JNExtension.m in Sources */,
-				6149D35A22C0604700583AA4 /* UIImageView+JNExtension.m in Sources */,
-				6149D35722C05E8600583AA4 /* NSDate+JNExtension.m in Sources */,
-				6149D35422C05DEE00583AA4 /* UILabel+JNExtension.m in Sources */,
+				61909EAB22D41F5900EC8773 /* UILabel+JNExtension.m in Sources */,
 				61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */,
-				61EDD4B722BC7B47009F83A6 /* NSString+JNExtension.m in Sources */,
+				61909EB222D41F5900EC8773 /* UIView+JNExtension.m in Sources */,
+				61909EAC22D41F5900EC8773 /* UIImage+JNExtension.m in Sources */,
+				61909EAD22D41F5900EC8773 /* MBProgressHUD+JNExtension.m in Sources */,
+				61909EB322D41F5900EC8773 /* NSString+JNExtension.m in Sources */,
+				61909EB122D41F5900EC8773 /* UIImageView+JNExtension.m in Sources */,
+				61909EA922D41F5900EC8773 /* JNTool.m in Sources */,
+				61909EB022D41F5900EC8773 /* NSAttributedString+JNExtension.m in Sources */,
+				61909EAA22D41F5900EC8773 /* JNNetworkManager.m in Sources */,
+				61909EAF22D41F5900EC8773 /* NSDate+JNExtension.m in Sources */,
+				61909EAE22D41F5900EC8773 /* UIColor+JNExtension.m in Sources */,
 				61EDD48A22BC7366009F83A6 /* main.m in Sources */,
-				61D3DC5822BF48B1002FA2E0 /* UIColor+JNExtension.m in Sources */,
 				61EDD47C22BC7362009F83A6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +502,22 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		613DDF2D22CC82610090ED1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		613DDF2E22CC82610090ED1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		61EDD4A122BC7367009F83A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -694,6 +745,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		613DDF2C22CC82610090ED1D /* Build configuration list for PBXAggregateTarget "JNToolsDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613DDF2D22CC82610090ED1D /* Debug */,
+				613DDF2E22CC82610090ED1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		61EDD47222BC7362009F83A6 /* Build configuration list for PBXProject "JNToolsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

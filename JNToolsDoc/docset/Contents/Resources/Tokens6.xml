@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+JNExtension.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(JNExtension)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+JNExtension.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/jn_md5String</TokenIdentifier>
+			<Abstract type="html">将当前字符串进行MD5加密</Abstract>
+			<DeclaredIn>NSString+JNExtension.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)jn_md5String</Declaration>
+			
+			<ReturnValue><Abstract type="html">返回MD5加密后的字符串</Abstract></ReturnValue>
+			<Anchor>//api/name/jn_md5String</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

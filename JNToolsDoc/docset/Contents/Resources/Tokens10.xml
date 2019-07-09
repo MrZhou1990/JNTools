@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UILabel+JNExtension.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UILabel(JNExtension)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+JNExtension.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/zh_changeLineWithSpace:</TokenIdentifier>
+			<Abstract type="html">改变label的行高</Abstract>
+			<DeclaredIn>UILabel+JNExtension.h</DeclaredIn>
+			
+			<Declaration>- (void)zh_changeLineWithSpace:(float)space</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">需要设置的行高</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/zh_changeLineWithSpace:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

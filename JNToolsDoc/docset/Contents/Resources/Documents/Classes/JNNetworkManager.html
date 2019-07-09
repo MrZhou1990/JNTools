@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>JNNetworkManager Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">JNToolsDemo </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">znzlkj</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/jn_getIPAddress:">+ jn_getIPAddress:</option>
+		
+		<option value="//api/name/jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:">+ jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:</option>
+		
+		<option value="//api/name/jn_getRequestWithUrlString:parameters:success:failure:">+ jn_getRequestWithUrlString:parameters:success:failure:</option>
+		
+		<option value="//api/name/jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:">+ jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:</option>
+		
+		<option value="//api/name/jn_postRequestWithUrlString:parameters:success:failure:">+ jn_postRequestWithUrlString:parameters:success:failure:</option>
+		
+	</optgroup>
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">JNNetworkManager Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>JNNetworkManager.h<br />JNNetworkManager.m</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/jn_getIPAddress:" title="jn_getIPAddress:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jn_getIPAddress:">+&nbsp;jn_getIPAddress:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前终端IP地址</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)jn_getIPAddress:(BOOL)<em>preferIPv4</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>preferIPv4</code></th>
+						<td><p>是否是IPV4</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>返回当前终端IP地址</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JNNetworkManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/jn_getRequestWithUrlString:parameters:success:failure:" title="jn_getRequestWithUrlString:parameters:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jn_getRequestWithUrlString:parameters:success:failure:">+&nbsp;jn_getRequestWithUrlString:parameters:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>没有加载等待的GET请求</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)jn_getRequestWithUrlString:(NSString *)<em>urlString</em> parameters:(id)<em>parameters</em> success:(void ( ^ ) ( id responObject ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>urlString</code></th>
+						<td><p>请求的接口</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p>请求的参数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>成功回调</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>失败回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JNNetworkManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:" title="jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:">+&nbsp;jn_getRequestWithUrlString:parameters:loadString:toView:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>有加载等待的GET请求</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)jn_getRequestWithUrlString:(NSString *)<em>urlString</em> parameters:(id)<em>parameters</em> loadString:(NSString *)<em>loadString</em> toView:(UIView *)<em>view</em> success:(void ( ^ ) ( id responObject ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>urlString</code></th>
+						<td><p>请求的接口</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p>请求的参数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>loadString</code></th>
+						<td><p>等待的文字</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>view</code></th>
+						<td><p>遮罩的图层</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>成功回调</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>失败回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JNNetworkManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/jn_postRequestWithUrlString:parameters:success:failure:" title="jn_postRequestWithUrlString:parameters:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jn_postRequestWithUrlString:parameters:success:failure:">+&nbsp;jn_postRequestWithUrlString:parameters:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>没有加载等待的POST请求</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)jn_postRequestWithUrlString:(NSString *)<em>urlString</em> parameters:(id)<em>parameters</em> success:(void ( ^ ) ( id responObject ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>urlString</code></th>
+						<td><p>请求的接口</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p>请求的参数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>成功回调</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>失败回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JNNetworkManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:" title="jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:">+&nbsp;jn_postRequestWithUrlString:parameters:loadString:toView:success:failure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>有加载等待的POST请求</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)jn_postRequestWithUrlString:(NSString *)<em>urlString</em> parameters:(id)<em>parameters</em> loadString:(NSString *)<em>loadString</em> toView:(UIView *)<em>view</em> success:(void ( ^ ) ( id responObject ))<em>success</em> failure:(void ( ^ ) ( NSError *error ))<em>failure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>urlString</code></th>
+						<td><p>请求的接口</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameters</code></th>
+						<td><p>请求的参数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>loadString</code></th>
+						<td><p>等待的文字</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>view</code></th>
+						<td><p>遮罩的图层</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>成功回调</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>failure</code></th>
+						<td><p>失败回调</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JNNetworkManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 znzlkj. All rights reserved. Updated: 2019-07-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
