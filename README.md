@@ -124,6 +124,13 @@ NSString+JNExtension.m
  @return 返回清空缓存后的文件夹大小用来更新显示
  */
 + (NSString *)jn_cleanCache;
+
+/**
+ App是否为新版本
+
+ @return 返回是否是新版本
+ */
++ (BOOL)jn_isNewVersion;
 ```
 # Define/JNToolsDefine.h(宏定义工具)
 ```

@@ -26,8 +26,7 @@
 }
 
 - (void)jn_testMethod {
-    
-    JNLog(@"Hello World");
+    [JNTool jn_isNewVersion];
 }
 
 @end

@@ -50,6 +50,13 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)jn_cleanCache;
 
+/**
+ App是否为新版本
+
+ @return 返回是否是新版本
+ */
++ (BOOL)jn_isNewVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END

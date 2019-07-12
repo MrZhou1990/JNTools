@@ -90,6 +90,18 @@
             <NodeRef refid="2"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JNTool/jn_isNewVersion</TokenIdentifier>
+			<Abstract type="html">App是否为新版本</Abstract>
+			<DeclaredIn>JNTool.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)jn_isNewVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">返回是否是新版本</Abstract></ReturnValue>
+			<Anchor>//api/name/jn_isNewVersion</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
         
         
 	</File>
