@@ -7,7 +7,7 @@
 //
 
 #import "UIImageView+JNExtension.h"
-#import <UIImageView+WebCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @implementation UIImageView (JNExtension)
 
