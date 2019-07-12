@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JNTools"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "iOS开发的工具类、分类及一些常用三方工具类的二次封装"
   s.homepage     = "https://github.com/MrZhou1990/JNTools"
   s.license      = "MIT"

@@ -27,6 +27,7 @@
 
 - (void)jn_testMethod {
     
+    JNLog(@"Hello World");
 }
 
 @end
