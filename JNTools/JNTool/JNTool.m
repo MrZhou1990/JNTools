@@ -103,17 +103,4 @@
     return [self jn_getCacheSize];
 }
 
-#pragma mark - App是否为新版本
-+ (BOOL)jn_isNewVersion {
-    NSString *currentVersion = [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"];
-    NSString *sandboxVersion = [[NSUserDefaults standardUserDefaults] objectForKey:@"AppVersion"];
-    if (sandboxVersion == nil) sandboxVersion = @"0.0";
-    if ([currentVersion compare:sandboxVersion] == NSOrderedDescending) {
-        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:@"AppVersion"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-        return true;
-    }
-    return false;
-}
-
 @end
