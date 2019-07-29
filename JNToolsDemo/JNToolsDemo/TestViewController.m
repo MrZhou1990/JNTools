@@ -26,7 +26,10 @@
 }
 
 - (void)jn_testMethod {
-    [JNTool jn_isNewVersion];
+    [MBProgressHUD jn_promptMessage:@"似乎断开了网络"];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [MBProgressHUD jn_loadingMessage:@"哈哈" toView:self.view];
+    });
 }
 
 @end

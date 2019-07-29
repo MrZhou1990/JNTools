@@ -18,7 +18,6 @@
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.bezelView.color = [UIColor blackColor];
     hud.label.textColor = [UIColor whiteColor];
-    hud.detailsLabel.textColor = [UIColor whiteColor];
     hud.removeFromSuperViewOnHide = YES;
     return hud;
 }
@@ -29,6 +28,7 @@
     hud.mode = MBProgressHUDModeText;
     hud.detailsLabel.text = message;
     hud.detailsLabel.font = [UIFont systemFontOfSize:15.f];
+    hud.detailsLabel.textColor = [UIColor whiteColor];
     [hud hideAnimated:YES afterDelay:1.5];
     return hud;
 }
