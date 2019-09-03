@@ -50,6 +50,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)jn_cleanCache;
 
+/**
+ 获取当前终端IP地址
+ 
+ @param preferIPv4 是否是IPV4
+ @return 返回当前终端IP地址
+ */
++ (NSString *)jn_getIPAddressWithIPv4:(BOOL)preferIPv4;
+
 @end
 
 NS_ASSUME_NONNULL_END

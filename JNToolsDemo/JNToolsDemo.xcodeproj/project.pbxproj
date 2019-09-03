@@ -6,123 +6,95 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		613DDF2B22CC82610090ED1D /* JNToolsDoc */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 613DDF2C22CC82610090ED1D /* Build configuration list for PBXAggregateTarget "JNToolsDoc" */;
-			buildPhases = (
-				613DDF2F22CC827E0090ED1D /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = JNToolsDoc;
-			productName = JNToolsDoc;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		61909EA922D41F5900EC8773 /* JNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E8F22D41F5800EC8773 /* JNTool.m */; };
-		61909EAA22D41F5900EC8773 /* JNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9022D41F5800EC8773 /* JNNetworkManager.m */; };
-		61909EAB22D41F5900EC8773 /* UILabel+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */; };
-		61909EAC22D41F5900EC8773 /* UIImage+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */; };
-		61909EAD22D41F5900EC8773 /* MBProgressHUD+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9A22D41F5900EC8773 /* MBProgressHUD+JNExtension.m */; };
-		61909EAE22D41F5900EC8773 /* UIColor+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */; };
-		61909EAF22D41F5900EC8773 /* NSDate+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9C22D41F5900EC8773 /* NSDate+JNExtension.m */; };
-		61909EB022D41F5900EC8773 /* NSAttributedString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */; };
-		61909EB122D41F5900EC8773 /* UIImageView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */; };
-		61909EB222D41F5900EC8773 /* UIView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909EA122D41F5900EC8773 /* UIView+JNExtension.m */; };
-		61909EB322D41F5900EC8773 /* NSString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 61909EA722D41F5900EC8773 /* NSString+JNExtension.m */; };
-		61EDD47C22BC7362009F83A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD47B22BC7362009F83A6 /* AppDelegate.m */; };
-		61EDD48222BC7362009F83A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EDD48022BC7362009F83A6 /* Main.storyboard */; };
-		61EDD48422BC7366009F83A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61EDD48322BC7366009F83A6 /* Assets.xcassets */; };
-		61EDD48722BC7366009F83A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EDD48522BC7366009F83A6 /* LaunchScreen.storyboard */; };
-		61EDD48A22BC7366009F83A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD48922BC7366009F83A6 /* main.m */; };
-		61EDD49422BC7366009F83A6 /* JNToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD49322BC7366009F83A6 /* JNToolsDemoTests.m */; };
-		61EDD49F22BC7367009F83A6 /* JNToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD49E22BC7367009F83A6 /* JNToolsDemoUITests.m */; };
-		61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDD4AD22BC73ED009F83A6 /* TestViewController.m */; };
-		71CDD63D5A39D51FE30D5CBE /* libPods-JNToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */; };
+		619C153F231E02F500DE8E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C153E231E02F500DE8E4A /* AppDelegate.m */; };
+		619C1545231E02F500DE8E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619C1543231E02F500DE8E4A /* Main.storyboard */; };
+		619C1547231E02FC00DE8E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619C1546231E02FC00DE8E4A /* Assets.xcassets */; };
+		619C154A231E02FC00DE8E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619C1548231E02FC00DE8E4A /* LaunchScreen.storyboard */; };
+		619C154D231E02FC00DE8E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C154C231E02FC00DE8E4A /* main.m */; };
+		619C1557231E02FC00DE8E4A /* JNToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1556231E02FC00DE8E4A /* JNToolsDemoTests.m */; };
+		619C1562231E02FC00DE8E4A /* JNToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1561231E02FC00DE8E4A /* JNToolsDemoUITests.m */; };
+		619C1571231E039300DE8E4A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1570231E039300DE8E4A /* TestViewController.m */; };
+		619C158E231E042F00DE8E4A /* JNTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1574231E042F00DE8E4A /* JNTool.m */; };
+		619C1590231E042F00DE8E4A /* UILabel+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C157C231E042F00DE8E4A /* UILabel+JNExtension.m */; };
+		619C1591231E042F00DE8E4A /* UIImage+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C157E231E042F00DE8E4A /* UIImage+JNExtension.m */; };
+		619C1593231E042F00DE8E4A /* UIColor+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1580231E042F00DE8E4A /* UIColor+JNExtension.m */; };
+		619C1594231E042F00DE8E4A /* NSDate+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1581231E042F00DE8E4A /* NSDate+JNExtension.m */; };
+		619C1595231E042F00DE8E4A /* NSAttributedString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1583231E042F00DE8E4A /* NSAttributedString+JNExtension.m */; };
+		619C1597231E042F00DE8E4A /* UIView+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C1586231E042F00DE8E4A /* UIView+JNExtension.m */; };
+		619C1598231E042F00DE8E4A /* NSString+JNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C158C231E042F00DE8E4A /* NSString+JNExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		61EDD49022BC7366009F83A6 /* PBXContainerItemProxy */ = {
+		619C1553231E02FC00DE8E4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61EDD46F22BC7362009F83A6 /* Project object */;
+			containerPortal = 619C1532231E02F500DE8E4A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61EDD47622BC7362009F83A6;
+			remoteGlobalIDString = 619C1539231E02F500DE8E4A;
 			remoteInfo = JNToolsDemo;
 		};
-		61EDD49B22BC7367009F83A6 /* PBXContainerItemProxy */ = {
+		619C155E231E02FC00DE8E4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61EDD46F22BC7362009F83A6 /* Project object */;
+			containerPortal = 619C1532231E02F500DE8E4A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61EDD47622BC7362009F83A6;
+			remoteGlobalIDString = 619C1539231E02F500DE8E4A;
 			remoteInfo = JNToolsDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JNToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61909E8F22D41F5800EC8773 /* JNTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTool.m; sourceTree = "<group>"; };
-		61909E9022D41F5800EC8773 /* JNNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNNetworkManager.m; sourceTree = "<group>"; };
-		61909E9122D41F5800EC8773 /* JNTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTool.h; sourceTree = "<group>"; };
-		61909E9222D41F5800EC8773 /* JNNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNNetworkManager.h; sourceTree = "<group>"; };
-		61909E9422D41F5800EC8773 /* JNToolsDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNToolsDefine.h; sourceTree = "<group>"; };
-		61909E9622D41F5800EC8773 /* UIView+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JNExtension.h"; sourceTree = "<group>"; };
-		61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JNExtension.m"; sourceTree = "<group>"; };
-		61909E9822D41F5900EC8773 /* UIImageView+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JNExtension.h"; sourceTree = "<group>"; };
-		61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JNExtension.m"; sourceTree = "<group>"; };
-		61909E9A22D41F5900EC8773 /* MBProgressHUD+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JNExtension.m"; sourceTree = "<group>"; };
-		61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JNExtension.m"; sourceTree = "<group>"; };
-		61909E9C22D41F5900EC8773 /* NSDate+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JNExtension.m"; sourceTree = "<group>"; };
-		61909E9D22D41F5900EC8773 /* NSString+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JNExtension.h"; sourceTree = "<group>"; };
-		61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JNExtension.m"; sourceTree = "<group>"; };
-		61909E9F22D41F5900EC8773 /* UILabel+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JNExtension.h"; sourceTree = "<group>"; };
-		61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JNExtension.m"; sourceTree = "<group>"; };
-		61909EA122D41F5900EC8773 /* UIView+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JNExtension.m"; sourceTree = "<group>"; };
-		61909EA222D41F5900EC8773 /* NSDate+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JNExtension.h"; sourceTree = "<group>"; };
-		61909EA322D41F5900EC8773 /* UIColor+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JNExtension.h"; sourceTree = "<group>"; };
-		61909EA422D41F5900EC8773 /* UIImage+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JNExtension.h"; sourceTree = "<group>"; };
-		61909EA522D41F5900EC8773 /* MBProgressHUD+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JNExtension.h"; sourceTree = "<group>"; };
-		61909EA622D41F5900EC8773 /* NSAttributedString+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JNExtension.h"; sourceTree = "<group>"; };
-		61909EA722D41F5900EC8773 /* NSString+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNExtension.m"; sourceTree = "<group>"; };
-		61909EA822D41F5900EC8773 /* JNCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNCommon.h; sourceTree = "<group>"; };
-		61EDD47722BC7362009F83A6 /* JNToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		61EDD47A22BC7362009F83A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		61EDD47B22BC7362009F83A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		61EDD48122BC7362009F83A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		61EDD48322BC7366009F83A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61EDD48622BC7366009F83A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		61EDD48822BC7366009F83A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61EDD48922BC7366009F83A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		61EDD48F22BC7366009F83A6 /* JNToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61EDD49322BC7366009F83A6 /* JNToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNToolsDemoTests.m; sourceTree = "<group>"; };
-		61EDD49522BC7366009F83A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61EDD49A22BC7367009F83A6 /* JNToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61EDD49E22BC7367009F83A6 /* JNToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNToolsDemoUITests.m; sourceTree = "<group>"; };
-		61EDD4A022BC7367009F83A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61EDD4AC22BC73ED009F83A6 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		61EDD4AD22BC73ED009F83A6 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		776E03C0244066E0FC8741AC /* Pods-JNToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNToolsDemo/Pods-JNToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D22E78A1BC11E4651E8E349E /* Pods-JNToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNToolsDemo/Pods-JNToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		619C153A231E02F500DE8E4A /* JNToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		619C153D231E02F500DE8E4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		619C153E231E02F500DE8E4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		619C1544231E02F500DE8E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		619C1546231E02FC00DE8E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		619C1549231E02FC00DE8E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		619C154B231E02FC00DE8E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619C154C231E02FC00DE8E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		619C1552231E02FC00DE8E4A /* JNToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		619C1556231E02FC00DE8E4A /* JNToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNToolsDemoTests.m; sourceTree = "<group>"; };
+		619C1558231E02FC00DE8E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619C155D231E02FC00DE8E4A /* JNToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		619C1561231E02FC00DE8E4A /* JNToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNToolsDemoUITests.m; sourceTree = "<group>"; };
+		619C1563231E02FC00DE8E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619C156F231E039300DE8E4A /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		619C1570231E039300DE8E4A /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		619C1574231E042F00DE8E4A /* JNTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTool.m; sourceTree = "<group>"; };
+		619C1576231E042F00DE8E4A /* JNTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTool.h; sourceTree = "<group>"; };
+		619C1579231E042F00DE8E4A /* JNToolsDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNToolsDefine.h; sourceTree = "<group>"; };
+		619C157B231E042F00DE8E4A /* UIView+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JNExtension.h"; sourceTree = "<group>"; };
+		619C157C231E042F00DE8E4A /* UILabel+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JNExtension.m"; sourceTree = "<group>"; };
+		619C157E231E042F00DE8E4A /* UIImage+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JNExtension.m"; sourceTree = "<group>"; };
+		619C1580231E042F00DE8E4A /* UIColor+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JNExtension.m"; sourceTree = "<group>"; };
+		619C1581231E042F00DE8E4A /* NSDate+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JNExtension.m"; sourceTree = "<group>"; };
+		619C1582231E042F00DE8E4A /* NSString+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JNExtension.h"; sourceTree = "<group>"; };
+		619C1583231E042F00DE8E4A /* NSAttributedString+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JNExtension.m"; sourceTree = "<group>"; };
+		619C1584231E042F00DE8E4A /* UILabel+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JNExtension.h"; sourceTree = "<group>"; };
+		619C1586231E042F00DE8E4A /* UIView+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JNExtension.m"; sourceTree = "<group>"; };
+		619C1587231E042F00DE8E4A /* NSDate+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JNExtension.h"; sourceTree = "<group>"; };
+		619C1588231E042F00DE8E4A /* UIColor+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JNExtension.h"; sourceTree = "<group>"; };
+		619C1589231E042F00DE8E4A /* UIImage+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JNExtension.h"; sourceTree = "<group>"; };
+		619C158B231E042F00DE8E4A /* NSAttributedString+JNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JNExtension.h"; sourceTree = "<group>"; };
+		619C158C231E042F00DE8E4A /* NSString+JNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNExtension.m"; sourceTree = "<group>"; };
+		619C158D231E042F00DE8E4A /* JNCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61EDD47422BC7362009F83A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71CDD63D5A39D51FE30D5CBE /* libPods-JNToolsDemo.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61EDD48C22BC7366009F83A6 /* Frameworks */ = {
+		619C1537231E02F500DE8E4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61EDD49722BC7367009F83A6 /* Frameworks */ = {
+		619C154F231E02FC00DE8E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619C155A231E02FC00DE8E4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,146 +104,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		61909E8D22D41F5800EC8773 /* JNTools */ = {
+		619C1531231E02F500DE8E4A = {
 			isa = PBXGroup;
 			children = (
-				61909E8E22D41F5800EC8773 /* JNTool */,
-				61909E9322D41F5800EC8773 /* Define */,
-				61909E9522D41F5800EC8773 /* Category */,
-				61909EA822D41F5900EC8773 /* JNCommon.h */,
-			);
-			path = JNTools;
-			sourceTree = "<group>";
-		};
-		61909E8E22D41F5800EC8773 /* JNTool */ = {
-			isa = PBXGroup;
-			children = (
-				61909E9222D41F5800EC8773 /* JNNetworkManager.h */,
-				61909E9022D41F5800EC8773 /* JNNetworkManager.m */,
-				61909E9122D41F5800EC8773 /* JNTool.h */,
-				61909E8F22D41F5800EC8773 /* JNTool.m */,
-			);
-			path = JNTool;
-			sourceTree = "<group>";
-		};
-		61909E9322D41F5800EC8773 /* Define */ = {
-			isa = PBXGroup;
-			children = (
-				61909E9422D41F5800EC8773 /* JNToolsDefine.h */,
-			);
-			path = Define;
-			sourceTree = "<group>";
-		};
-		61909E9522D41F5800EC8773 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				61909EA522D41F5900EC8773 /* MBProgressHUD+JNExtension.h */,
-				61909E9A22D41F5900EC8773 /* MBProgressHUD+JNExtension.m */,
-				61909EA622D41F5900EC8773 /* NSAttributedString+JNExtension.h */,
-				61909E9E22D41F5900EC8773 /* NSAttributedString+JNExtension.m */,
-				61909EA222D41F5900EC8773 /* NSDate+JNExtension.h */,
-				61909E9C22D41F5900EC8773 /* NSDate+JNExtension.m */,
-				61909E9D22D41F5900EC8773 /* NSString+JNExtension.h */,
-				61909EA722D41F5900EC8773 /* NSString+JNExtension.m */,
-				61909EA322D41F5900EC8773 /* UIColor+JNExtension.h */,
-				61909E9B22D41F5900EC8773 /* UIColor+JNExtension.m */,
-				61909EA422D41F5900EC8773 /* UIImage+JNExtension.h */,
-				61909E9922D41F5900EC8773 /* UIImage+JNExtension.m */,
-				61909E9822D41F5900EC8773 /* UIImageView+JNExtension.h */,
-				61909EA022D41F5900EC8773 /* UIImageView+JNExtension.m */,
-				61909E9F22D41F5900EC8773 /* UILabel+JNExtension.h */,
-				61909E9722D41F5800EC8773 /* UILabel+JNExtension.m */,
-				61909E9622D41F5800EC8773 /* UIView+JNExtension.h */,
-				61909EA122D41F5900EC8773 /* UIView+JNExtension.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		61EDD46E22BC7362009F83A6 = {
-			isa = PBXGroup;
-			children = (
-				61EDD47922BC7362009F83A6 /* JNToolsDemo */,
-				61EDD49222BC7366009F83A6 /* JNToolsDemoTests */,
-				61EDD49D22BC7367009F83A6 /* JNToolsDemoUITests */,
-				61EDD47822BC7362009F83A6 /* Products */,
-				C7A57689112EE10887FCA88E /* Pods */,
-				D17D99D271E433EB42601EA4 /* Frameworks */,
+				619C153C231E02F500DE8E4A /* JNToolsDemo */,
+				619C1555231E02FC00DE8E4A /* JNToolsDemoTests */,
+				619C1560231E02FC00DE8E4A /* JNToolsDemoUITests */,
+				619C153B231E02F500DE8E4A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		61EDD47822BC7362009F83A6 /* Products */ = {
+		619C153B231E02F500DE8E4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61EDD47722BC7362009F83A6 /* JNToolsDemo.app */,
-				61EDD48F22BC7366009F83A6 /* JNToolsDemoTests.xctest */,
-				61EDD49A22BC7367009F83A6 /* JNToolsDemoUITests.xctest */,
+				619C153A231E02F500DE8E4A /* JNToolsDemo.app */,
+				619C1552231E02FC00DE8E4A /* JNToolsDemoTests.xctest */,
+				619C155D231E02FC00DE8E4A /* JNToolsDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		61EDD47922BC7362009F83A6 /* JNToolsDemo */ = {
+		619C153C231E02F500DE8E4A /* JNToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				61909E8D22D41F5800EC8773 /* JNTools */,
-				61EDD47A22BC7362009F83A6 /* AppDelegate.h */,
-				61EDD47B22BC7362009F83A6 /* AppDelegate.m */,
-				61EDD4AC22BC73ED009F83A6 /* TestViewController.h */,
-				61EDD4AD22BC73ED009F83A6 /* TestViewController.m */,
-				61EDD48022BC7362009F83A6 /* Main.storyboard */,
-				61EDD48322BC7366009F83A6 /* Assets.xcassets */,
-				61EDD48522BC7366009F83A6 /* LaunchScreen.storyboard */,
-				61EDD48822BC7366009F83A6 /* Info.plist */,
-				61EDD48922BC7366009F83A6 /* main.m */,
+				619C1572231E042F00DE8E4A /* JNTools */,
+				619C153D231E02F500DE8E4A /* AppDelegate.h */,
+				619C153E231E02F500DE8E4A /* AppDelegate.m */,
+				619C156F231E039300DE8E4A /* TestViewController.h */,
+				619C1570231E039300DE8E4A /* TestViewController.m */,
+				619C1543231E02F500DE8E4A /* Main.storyboard */,
+				619C1546231E02FC00DE8E4A /* Assets.xcassets */,
+				619C1548231E02FC00DE8E4A /* LaunchScreen.storyboard */,
+				619C154B231E02FC00DE8E4A /* Info.plist */,
+				619C154C231E02FC00DE8E4A /* main.m */,
 			);
 			path = JNToolsDemo;
 			sourceTree = "<group>";
 		};
-		61EDD49222BC7366009F83A6 /* JNToolsDemoTests */ = {
+		619C1555231E02FC00DE8E4A /* JNToolsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				61EDD49322BC7366009F83A6 /* JNToolsDemoTests.m */,
-				61EDD49522BC7366009F83A6 /* Info.plist */,
+				619C1556231E02FC00DE8E4A /* JNToolsDemoTests.m */,
+				619C1558231E02FC00DE8E4A /* Info.plist */,
 			);
 			path = JNToolsDemoTests;
 			sourceTree = "<group>";
 		};
-		61EDD49D22BC7367009F83A6 /* JNToolsDemoUITests */ = {
+		619C1560231E02FC00DE8E4A /* JNToolsDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				61EDD49E22BC7367009F83A6 /* JNToolsDemoUITests.m */,
-				61EDD4A022BC7367009F83A6 /* Info.plist */,
+				619C1561231E02FC00DE8E4A /* JNToolsDemoUITests.m */,
+				619C1563231E02FC00DE8E4A /* Info.plist */,
 			);
 			path = JNToolsDemoUITests;
 			sourceTree = "<group>";
 		};
-		C7A57689112EE10887FCA88E /* Pods */ = {
+		619C1572231E042F00DE8E4A /* JNTools */ = {
 			isa = PBXGroup;
 			children = (
-				D22E78A1BC11E4651E8E349E /* Pods-JNToolsDemo.debug.xcconfig */,
-				776E03C0244066E0FC8741AC /* Pods-JNToolsDemo.release.xcconfig */,
+				619C158D231E042F00DE8E4A /* JNCommon.h */,
+				619C157A231E042F00DE8E4A /* Category */,
+				619C1578231E042F00DE8E4A /* Define */,
+				619C1573231E042F00DE8E4A /* JNTool */,
 			);
-			name = Pods;
+			path = JNTools;
 			sourceTree = "<group>";
 		};
-		D17D99D271E433EB42601EA4 /* Frameworks */ = {
+		619C1573231E042F00DE8E4A /* JNTool */ = {
 			isa = PBXGroup;
 			children = (
-				54FF1CC8B6A3B48F7A561599 /* libPods-JNToolsDemo.a */,
+				619C1576231E042F00DE8E4A /* JNTool.h */,
+				619C1574231E042F00DE8E4A /* JNTool.m */,
 			);
-			name = Frameworks;
+			path = JNTool;
+			sourceTree = "<group>";
+		};
+		619C1578231E042F00DE8E4A /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				619C1579231E042F00DE8E4A /* JNToolsDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		619C157A231E042F00DE8E4A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				619C158B231E042F00DE8E4A /* NSAttributedString+JNExtension.h */,
+				619C1583231E042F00DE8E4A /* NSAttributedString+JNExtension.m */,
+				619C1587231E042F00DE8E4A /* NSDate+JNExtension.h */,
+				619C1581231E042F00DE8E4A /* NSDate+JNExtension.m */,
+				619C1582231E042F00DE8E4A /* NSString+JNExtension.h */,
+				619C158C231E042F00DE8E4A /* NSString+JNExtension.m */,
+				619C1588231E042F00DE8E4A /* UIColor+JNExtension.h */,
+				619C1580231E042F00DE8E4A /* UIColor+JNExtension.m */,
+				619C1589231E042F00DE8E4A /* UIImage+JNExtension.h */,
+				619C157E231E042F00DE8E4A /* UIImage+JNExtension.m */,
+				619C1584231E042F00DE8E4A /* UILabel+JNExtension.h */,
+				619C157C231E042F00DE8E4A /* UILabel+JNExtension.m */,
+				619C157B231E042F00DE8E4A /* UIView+JNExtension.h */,
+				619C1586231E042F00DE8E4A /* UIView+JNExtension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61EDD47622BC7362009F83A6 /* JNToolsDemo */ = {
+		619C1539231E02F500DE8E4A /* JNToolsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61EDD4A322BC7367009F83A6 /* Build configuration list for PBXNativeTarget "JNToolsDemo" */;
+			buildConfigurationList = 619C1566231E02FC00DE8E4A /* Build configuration list for PBXNativeTarget "JNToolsDemo" */;
 			buildPhases = (
-				74E189F840BF724865725922 /* [CP] Check Pods Manifest.lock */,
-				61EDD47322BC7362009F83A6 /* Sources */,
-				61EDD47422BC7362009F83A6 /* Frameworks */,
-				61EDD47522BC7362009F83A6 /* Resources */,
+				619C1536231E02F500DE8E4A /* Sources */,
+				619C1537231E02F500DE8E4A /* Frameworks */,
+				619C1538231E02F500DE8E4A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -279,71 +225,68 @@
 			);
 			name = JNToolsDemo;
 			productName = JNToolsDemo;
-			productReference = 61EDD47722BC7362009F83A6 /* JNToolsDemo.app */;
+			productReference = 619C153A231E02F500DE8E4A /* JNToolsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		61EDD48E22BC7366009F83A6 /* JNToolsDemoTests */ = {
+		619C1551231E02FC00DE8E4A /* JNToolsDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61EDD4A622BC7367009F83A6 /* Build configuration list for PBXNativeTarget "JNToolsDemoTests" */;
+			buildConfigurationList = 619C1569231E02FC00DE8E4A /* Build configuration list for PBXNativeTarget "JNToolsDemoTests" */;
 			buildPhases = (
-				61EDD48B22BC7366009F83A6 /* Sources */,
-				61EDD48C22BC7366009F83A6 /* Frameworks */,
-				61EDD48D22BC7366009F83A6 /* Resources */,
+				619C154E231E02FC00DE8E4A /* Sources */,
+				619C154F231E02FC00DE8E4A /* Frameworks */,
+				619C1550231E02FC00DE8E4A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61EDD49122BC7366009F83A6 /* PBXTargetDependency */,
+				619C1554231E02FC00DE8E4A /* PBXTargetDependency */,
 			);
 			name = JNToolsDemoTests;
 			productName = JNToolsDemoTests;
-			productReference = 61EDD48F22BC7366009F83A6 /* JNToolsDemoTests.xctest */;
+			productReference = 619C1552231E02FC00DE8E4A /* JNToolsDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		61EDD49922BC7367009F83A6 /* JNToolsDemoUITests */ = {
+		619C155C231E02FC00DE8E4A /* JNToolsDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61EDD4A922BC7367009F83A6 /* Build configuration list for PBXNativeTarget "JNToolsDemoUITests" */;
+			buildConfigurationList = 619C156C231E02FC00DE8E4A /* Build configuration list for PBXNativeTarget "JNToolsDemoUITests" */;
 			buildPhases = (
-				61EDD49622BC7367009F83A6 /* Sources */,
-				61EDD49722BC7367009F83A6 /* Frameworks */,
-				61EDD49822BC7367009F83A6 /* Resources */,
+				619C1559231E02FC00DE8E4A /* Sources */,
+				619C155A231E02FC00DE8E4A /* Frameworks */,
+				619C155B231E02FC00DE8E4A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61EDD49C22BC7367009F83A6 /* PBXTargetDependency */,
+				619C155F231E02FC00DE8E4A /* PBXTargetDependency */,
 			);
 			name = JNToolsDemoUITests;
 			productName = JNToolsDemoUITests;
-			productReference = 61EDD49A22BC7367009F83A6 /* JNToolsDemoUITests.xctest */;
+			productReference = 619C155D231E02FC00DE8E4A /* JNToolsDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		61EDD46F22BC7362009F83A6 /* Project object */ = {
+		619C1532231E02F500DE8E4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Cloud;
 				TargetAttributes = {
-					613DDF2B22CC82610090ED1D = {
+					619C1539231E02F500DE8E4A = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					61EDD47622BC7362009F83A6 = {
+					619C1551231E02FC00DE8E4A = {
 						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 619C1539231E02F500DE8E4A;
 					};
-					61EDD48E22BC7366009F83A6 = {
+					619C155C231E02FC00DE8E4A = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 61EDD47622BC7362009F83A6;
-					};
-					61EDD49922BC7367009F83A6 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 61EDD47622BC7362009F83A6;
+						TestTargetID = 619C1539231E02F500DE8E4A;
 					};
 				};
 			};
-			buildConfigurationList = 61EDD47222BC7362009F83A6 /* Build configuration list for PBXProject "JNToolsDemo" */;
+			buildConfigurationList = 619C1535231E02F500DE8E4A /* Build configuration list for PBXProject "JNToolsDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -351,38 +294,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 61EDD46E22BC7362009F83A6;
-			productRefGroup = 61EDD47822BC7362009F83A6 /* Products */;
+			mainGroup = 619C1531231E02F500DE8E4A;
+			productRefGroup = 619C153B231E02F500DE8E4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61EDD47622BC7362009F83A6 /* JNToolsDemo */,
-				61EDD48E22BC7366009F83A6 /* JNToolsDemoTests */,
-				61EDD49922BC7367009F83A6 /* JNToolsDemoUITests */,
-				613DDF2B22CC82610090ED1D /* JNToolsDoc */,
+				619C1539231E02F500DE8E4A /* JNToolsDemo */,
+				619C1551231E02FC00DE8E4A /* JNToolsDemoTests */,
+				619C155C231E02FC00DE8E4A /* JNToolsDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61EDD47522BC7362009F83A6 /* Resources */ = {
+		619C1538231E02F500DE8E4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61EDD48722BC7366009F83A6 /* LaunchScreen.storyboard in Resources */,
-				61EDD48422BC7366009F83A6 /* Assets.xcassets in Resources */,
-				61EDD48222BC7362009F83A6 /* Main.storyboard in Resources */,
+				619C154A231E02FC00DE8E4A /* LaunchScreen.storyboard in Resources */,
+				619C1547231E02FC00DE8E4A /* Assets.xcassets in Resources */,
+				619C1545231E02F500DE8E4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61EDD48D22BC7366009F83A6 /* Resources */ = {
+		619C1550231E02FC00DE8E4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61EDD49822BC7367009F83A6 /* Resources */ = {
+		619C155B231E02FC00DE8E4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,110 +333,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		613DDF2F22CC827E0090ED1D /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#appledoc Xcode script\n# Start constants\n\ncompany=\"znzlkj\";\ncompanyID=\"com.znzlkj\";\ncompanyURL=\"https://www.zhiliangwang.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"../JNToolsDoc\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n--ignore \"Pods\" \\\n\"${PROJECT_DIR}\"\n";
-		};
-		74E189F840BF724865725922 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JNToolsDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		61EDD47322BC7362009F83A6 /* Sources */ = {
+		619C1536231E02F500DE8E4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61909EAB22D41F5900EC8773 /* UILabel+JNExtension.m in Sources */,
-				61EDD4AE22BC73ED009F83A6 /* TestViewController.m in Sources */,
-				61909EB222D41F5900EC8773 /* UIView+JNExtension.m in Sources */,
-				61909EAC22D41F5900EC8773 /* UIImage+JNExtension.m in Sources */,
-				61909EAD22D41F5900EC8773 /* MBProgressHUD+JNExtension.m in Sources */,
-				61909EB322D41F5900EC8773 /* NSString+JNExtension.m in Sources */,
-				61909EB122D41F5900EC8773 /* UIImageView+JNExtension.m in Sources */,
-				61909EA922D41F5900EC8773 /* JNTool.m in Sources */,
-				61909EB022D41F5900EC8773 /* NSAttributedString+JNExtension.m in Sources */,
-				61909EAA22D41F5900EC8773 /* JNNetworkManager.m in Sources */,
-				61909EAF22D41F5900EC8773 /* NSDate+JNExtension.m in Sources */,
-				61909EAE22D41F5900EC8773 /* UIColor+JNExtension.m in Sources */,
-				61EDD48A22BC7366009F83A6 /* main.m in Sources */,
-				61EDD47C22BC7362009F83A6 /* AppDelegate.m in Sources */,
+				619C1590231E042F00DE8E4A /* UILabel+JNExtension.m in Sources */,
+				619C1571231E039300DE8E4A /* TestViewController.m in Sources */,
+				619C1597231E042F00DE8E4A /* UIView+JNExtension.m in Sources */,
+				619C1591231E042F00DE8E4A /* UIImage+JNExtension.m in Sources */,
+				619C1598231E042F00DE8E4A /* NSString+JNExtension.m in Sources */,
+				619C158E231E042F00DE8E4A /* JNTool.m in Sources */,
+				619C1595231E042F00DE8E4A /* NSAttributedString+JNExtension.m in Sources */,
+				619C1594231E042F00DE8E4A /* NSDate+JNExtension.m in Sources */,
+				619C1593231E042F00DE8E4A /* UIColor+JNExtension.m in Sources */,
+				619C154D231E02FC00DE8E4A /* main.m in Sources */,
+				619C153F231E02F500DE8E4A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61EDD48B22BC7366009F83A6 /* Sources */ = {
+		619C154E231E02FC00DE8E4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61EDD49422BC7366009F83A6 /* JNToolsDemoTests.m in Sources */,
+				619C1557231E02FC00DE8E4A /* JNToolsDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61EDD49622BC7367009F83A6 /* Sources */ = {
+		619C1559231E02FC00DE8E4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61EDD49F22BC7367009F83A6 /* JNToolsDemoUITests.m in Sources */,
+				619C1562231E02FC00DE8E4A /* JNToolsDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61EDD49122BC7366009F83A6 /* PBXTargetDependency */ = {
+		619C1554231E02FC00DE8E4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61EDD47622BC7362009F83A6 /* JNToolsDemo */;
-			targetProxy = 61EDD49022BC7366009F83A6 /* PBXContainerItemProxy */;
+			target = 619C1539231E02F500DE8E4A /* JNToolsDemo */;
+			targetProxy = 619C1553231E02FC00DE8E4A /* PBXContainerItemProxy */;
 		};
-		61EDD49C22BC7367009F83A6 /* PBXTargetDependency */ = {
+		619C155F231E02FC00DE8E4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61EDD47622BC7362009F83A6 /* JNToolsDemo */;
-			targetProxy = 61EDD49B22BC7367009F83A6 /* PBXContainerItemProxy */;
+			target = 619C1539231E02F500DE8E4A /* JNToolsDemo */;
+			targetProxy = 619C155E231E02FC00DE8E4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		61EDD48022BC7362009F83A6 /* Main.storyboard */ = {
+		619C1543231E02F500DE8E4A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				61EDD48122BC7362009F83A6 /* Base */,
+				619C1544231E02F500DE8E4A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		61EDD48522BC7366009F83A6 /* LaunchScreen.storyboard */ = {
+		619C1548231E02FC00DE8E4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				61EDD48622BC7366009F83A6 /* Base */,
+				619C1549231E02FC00DE8E4A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -502,23 +403,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		613DDF2D22CC82610090ED1D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		613DDF2E22CC82610090ED1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		61EDD4A122BC7367009F83A6 /* Debug */ = {
+		619C1564231E02FC00DE8E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -577,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		61EDD4A222BC7367009F83A6 /* Release */ = {
+		619C1565231E02FC00DE8E4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -630,9 +515,8 @@
 			};
 			name = Release;
 		};
-		61EDD4A422BC7367009F83A6 /* Debug */ = {
+		619C1567231E02FC00DE8E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D22E78A1BC11E4651E8E349E /* Pods-JNToolsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -649,9 +533,8 @@
 			};
 			name = Debug;
 		};
-		61EDD4A522BC7367009F83A6 /* Release */ = {
+		619C1568231E02FC00DE8E4A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 776E03C0244066E0FC8741AC /* Pods-JNToolsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -668,12 +551,12 @@
 			};
 			name = Release;
 		};
-		61EDD4A722BC7367009F83A6 /* Debug */ = {
+		619C156A231E02FC00DE8E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R96K2C772E;
+				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -687,12 +570,12 @@
 			};
 			name = Debug;
 		};
-		61EDD4A822BC7367009F83A6 /* Release */ = {
+		619C156B231E02FC00DE8E4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R96K2C772E;
+				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -706,11 +589,11 @@
 			};
 			name = Release;
 		};
-		61EDD4AA22BC7367009F83A6 /* Debug */ = {
+		619C156D231E02FC00DE8E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R96K2C772E;
+				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -724,11 +607,11 @@
 			};
 			name = Debug;
 		};
-		61EDD4AB22BC7367009F83A6 /* Release */ = {
+		619C156E231E02FC00DE8E4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R96K2C772E;
+				DEVELOPMENT_TEAM = 24FS7QD68Q;
 				INFOPLIST_FILE = JNToolsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -745,52 +628,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		613DDF2C22CC82610090ED1D /* Build configuration list for PBXAggregateTarget "JNToolsDoc" */ = {
+		619C1535231E02F500DE8E4A /* Build configuration list for PBXProject "JNToolsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				613DDF2D22CC82610090ED1D /* Debug */,
-				613DDF2E22CC82610090ED1D /* Release */,
+				619C1564231E02FC00DE8E4A /* Debug */,
+				619C1565231E02FC00DE8E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61EDD47222BC7362009F83A6 /* Build configuration list for PBXProject "JNToolsDemo" */ = {
+		619C1566231E02FC00DE8E4A /* Build configuration list for PBXNativeTarget "JNToolsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61EDD4A122BC7367009F83A6 /* Debug */,
-				61EDD4A222BC7367009F83A6 /* Release */,
+				619C1567231E02FC00DE8E4A /* Debug */,
+				619C1568231E02FC00DE8E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61EDD4A322BC7367009F83A6 /* Build configuration list for PBXNativeTarget "JNToolsDemo" */ = {
+		619C1569231E02FC00DE8E4A /* Build configuration list for PBXNativeTarget "JNToolsDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61EDD4A422BC7367009F83A6 /* Debug */,
-				61EDD4A522BC7367009F83A6 /* Release */,
+				619C156A231E02FC00DE8E4A /* Debug */,
+				619C156B231E02FC00DE8E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61EDD4A622BC7367009F83A6 /* Build configuration list for PBXNativeTarget "JNToolsDemoTests" */ = {
+		619C156C231E02FC00DE8E4A /* Build configuration list for PBXNativeTarget "JNToolsDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61EDD4A722BC7367009F83A6 /* Debug */,
-				61EDD4A822BC7367009F83A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		61EDD4A922BC7367009F83A6 /* Build configuration list for PBXNativeTarget "JNToolsDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61EDD4AA22BC7367009F83A6 /* Debug */,
-				61EDD4AB22BC7367009F83A6 /* Release */,
+				619C156D231E02FC00DE8E4A /* Debug */,
+				619C156E231E02FC00DE8E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 61EDD46F22BC7362009F83A6 /* Project object */;
+	rootObject = 619C1532231E02F500DE8E4A /* Project object */;
 }

@@ -11,6 +11,7 @@
 
 /** 宏定义 */
 #import "JNToolsDefine.h"
+
 /** 分类 */
 #import "NSString+JNExtension.h"
 #import "UIColor+JNExtension.h"
@@ -19,10 +20,8 @@
 #import "UIImage+JNExtension.h"
 #import "UILabel+JNExtension.h"
 #import "NSDate+JNExtension.h"
-#import "UIImageView+JNExtension.h"
-#import "MBProgressHUD+JNExtension.h"
+
 /** 工具 */
 #import "JNTool.h"
-#import "JNNetworkManager.h"
 
 #endif /* JNCommon_h */
