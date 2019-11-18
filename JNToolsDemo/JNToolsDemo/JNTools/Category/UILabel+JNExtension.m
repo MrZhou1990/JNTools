@@ -11,7 +11,7 @@
 @implementation UILabel (JNExtension)
 
 // 改变label的行高
-- (void)zh_changeLineWithSpace:(float)space {
+- (void)jn_changeLineWithSpace:(float)space {
     NSString *labelText = self.text;
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:labelText];
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];

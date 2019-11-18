@@ -23,7 +23,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"%@", [[NSDate date] jn_dateBySubtractingDays:10]);
+    NSLog(@"%@", [JNTool jn_A:@"3.56" divide_B:@"4.78"]);
 }
 
 @end

@@ -167,4 +167,73 @@
     return [addresses count] ? addresses : nil;
 }
 
+#pragma mark - 精确计算
+/// a + b
++ (NSString *)jn_A:(NSString *)a add_B:(NSString *)b {
+    a = [NSString stringWithFormat:@"%@", a];
+    b = [NSString stringWithFormat:@"%@", b];
+    @try {
+        NSDecimalNumber *a1 = [NSDecimalNumber decimalNumberWithString:a];
+        NSDecimalNumber *b1 = [NSDecimalNumber decimalNumberWithString:b];
+        NSDecimalNumber *result = [a1 decimalNumberByAdding:b1];
+        return [NSString stringWithFormat:@"%@", result];
+    } @catch (NSException *exception) {
+#ifdef DEBUG
+        NSLog(@"在计算加法时抛出了一个异常：%@", exception);
+#endif
+        return @"0";
+    }
+}
+
+/// a - b
++ (NSString *)jn_A:(NSString *)a subtract_B:(NSString *)b {
+    a = [NSString stringWithFormat:@"%@", a];
+    b = [NSString stringWithFormat:@"%@", b];
+    @try {
+        NSDecimalNumber *a1 = [NSDecimalNumber decimalNumberWithString:a];
+        NSDecimalNumber *b1 = [NSDecimalNumber decimalNumberWithString:b];
+        NSDecimalNumber *result = [a1 decimalNumberBySubtracting:b1];
+        return [NSString stringWithFormat:@"%@", result];
+    } @catch (NSException *exception) {
+#ifdef DEBUG
+        NSLog(@"在计算减法时抛出了一个异常：%@", exception);
+#endif
+        return @"0";
+    }
+}
+
+/// a * b
++ (NSString *)jn_A:(NSString *)a multiply_B:(NSString *)b {
+    a = [NSString stringWithFormat:@"%@", a];
+    b = [NSString stringWithFormat:@"%@", b];
+    @try {
+        NSDecimalNumber *a1 = [NSDecimalNumber decimalNumberWithString:a];
+        NSDecimalNumber *b1 = [NSDecimalNumber decimalNumberWithString:b];
+        NSDecimalNumber *result = [a1 decimalNumberByMultiplyingBy:b1];
+        return [NSString stringWithFormat:@"%@", result];
+    } @catch (NSException *exception) {
+#ifdef DEBUG
+        NSLog(@"在计算乘法时抛出了一个异常：%@", exception);
+#endif
+        return @"0";
+    }
+}
+
+/// a / b
++ (NSString *)jn_A:(NSString *)a divide_B:(NSString *)b {
+    a = [NSString stringWithFormat:@"%@", a];
+    b = [NSString stringWithFormat:@"%@", b];
+    @try {
+        NSDecimalNumber *a1 = [NSDecimalNumber decimalNumberWithString:a];
+        NSDecimalNumber *b1 = [NSDecimalNumber decimalNumberWithString:b];
+        NSDecimalNumber *result = [a1 decimalNumberByDividingBy:b1];
+        return [NSString stringWithFormat:@"%@", result];
+    } @catch (NSException *exception) {
+#ifdef DEBUG
+        NSLog(@"在计算除法时抛出了一个异常：%@", exception);
+#endif
+        return @"0";
+    }
+}
+
 @end

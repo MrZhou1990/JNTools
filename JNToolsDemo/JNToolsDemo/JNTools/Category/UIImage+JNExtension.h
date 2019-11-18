@@ -62,6 +62,15 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (UIImage *)jn_getVideoPreViewImage:(NSURL *)path;
 
+/**
+ 使用颜色创建一张图片
+
+ @param color 颜色
+ @param size 图片尺寸
+ @return 返回Image对象
+ */
++ (UIImage *)jn_createImageWithColor:(UIColor *)color size:(CGSize)size;
+
 @end
 
 NS_ASSUME_NONNULL_END

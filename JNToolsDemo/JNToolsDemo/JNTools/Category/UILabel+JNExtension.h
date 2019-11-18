@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param space 需要设置的行高
  */
-- (void)zh_changeLineWithSpace:(float)space;
+- (void)jn_changeLineWithSpace:(float)space;
 
 @end
 
