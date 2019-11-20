@@ -23,7 +23,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"%@", [JNTool jn_A:@"3.56" divide_B:@"4.78"]);
+    NSLog(@"%@", [NSDate jn_currentSystemTimeWithDateType:JNDateTypeYearMonthDayHourMinuteSecond is24Hour:YES]);
 }
 
 @end

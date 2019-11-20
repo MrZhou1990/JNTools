@@ -10,7 +10,7 @@
 
 @implementation UIColor (JNExtension)
 
-// 哈希码取色
+#pragma mark - 哈希码取色
 + (UIColor *)jn_colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha {
     //删除字符串中的空格
     NSString *cString = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];

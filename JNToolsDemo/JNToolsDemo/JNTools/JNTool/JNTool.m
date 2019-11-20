@@ -168,7 +168,7 @@
 }
 
 #pragma mark - 精确计算
-/// a + b
+#pragma mark a + b
 + (NSString *)jn_A:(NSString *)a add_B:(NSString *)b {
     a = [NSString stringWithFormat:@"%@", a];
     b = [NSString stringWithFormat:@"%@", b];
@@ -185,7 +185,7 @@
     }
 }
 
-/// a - b
+#pragma mark a - b
 + (NSString *)jn_A:(NSString *)a subtract_B:(NSString *)b {
     a = [NSString stringWithFormat:@"%@", a];
     b = [NSString stringWithFormat:@"%@", b];
@@ -202,7 +202,7 @@
     }
 }
 
-/// a * b
+#pragma mark a * b
 + (NSString *)jn_A:(NSString *)a multiply_B:(NSString *)b {
     a = [NSString stringWithFormat:@"%@", a];
     b = [NSString stringWithFormat:@"%@", b];
@@ -219,7 +219,7 @@
     }
 }
 
-/// a / b
+#pragma mark a / b
 + (NSString *)jn_A:(NSString *)a divide_B:(NSString *)b {
     a = [NSString stringWithFormat:@"%@", a];
     b = [NSString stringWithFormat:@"%@", b];

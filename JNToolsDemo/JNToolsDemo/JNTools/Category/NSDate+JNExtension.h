@@ -13,12 +13,18 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSDate (JNExtension)
 
 typedef NS_ENUM(NSUInteger, JNDateType) {
-    JNDateTypeYear,
-    JNDateTypeYearMonth,
-    JNDateTypeYearMonthDay,
-    JNDateTypeYearMonthDayHour,
+    /** 年月日，时分秒 */
+    JNDateTypeYearMonthDayHourMinuteSecond,
+    /** 年月日，时分 */
     JNDateTypeYearMonthDayHourMinute,
-    JNDateTypeYearMonthDayHourMinuteSecond // default
+    /** 年月日，时 */
+    JNDateTypeYearMonthDayHour,
+    /** 年月日 */
+    JNDateTypeYearMonthDay,
+    /** 年月 */
+    JNDateTypeYearMonth,
+    /** 年 */
+    JNDateTypeYear,
 };
 
 /**
@@ -30,11 +36,12 @@ typedef NS_ENUM(NSUInteger, JNDateType) {
 
 /**
  获取当前系统时间
- 
+
  @param dateType 日期类型
+ @param is24Hour 是否使用24小时制
  @return 返回当前系统时间
  */
-+ (NSString *)jn_currentSystemTimeWithDateType:(JNDateType)dateType;
++ (NSString *)jn_currentSystemTimeWithDateType:(JNDateType)dateType is24Hour:(BOOL)is24Hour;
 
 /**
  在当前日期延后N个月
