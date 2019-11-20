@@ -23,4 +23,25 @@
     return result;
 }
 
+#pragma mark - 拼接沙盒中Document文件夹的文件路径
+- (NSString *)jn_documentDir {
+    NSString *documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
+    NSString *filePath = [documentPath stringByAppendingPathComponent:self];
+    return filePath;
+}
+
+#pragma mark - 拼接沙盒中Caches（缓存）文件夹的文件路径
+- (NSString *)jn_cachesDir {
+    NSString *cachesPath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
+    NSString *filePath = [cachesPath stringByAppendingPathComponent:self];
+    return filePath;
+}
+
+#pragma mark - 拼接沙盒中Tmp（临时）文件夹的文件路径
+- (NSString *)jn_tmpDir {
+    NSString *tmpPath = NSTemporaryDirectory();
+    NSString *filePath = [tmpPath stringByAppendingPathComponent:self];
+    return filePath;
+}
+
 @end

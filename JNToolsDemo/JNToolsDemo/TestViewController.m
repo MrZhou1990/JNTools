@@ -23,7 +23,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"%@", [NSDate jn_currentSystemTimeWithDateType:JNDateTypeYearMonthDayHourMinuteSecond is24Hour:YES]);
+    self.view.backgroundColor = [UIColor jn_colorWithRGBColorRed:0 green:0 blue:0 alpha:.5];
 }
 
 @end

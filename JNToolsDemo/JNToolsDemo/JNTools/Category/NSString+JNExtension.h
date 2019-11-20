@@ -19,6 +19,27 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (NSString *)jn_md5String;
 
+/**
+ 拼接沙盒中Document文件夹的文件路径
+ 
+ @return 沙盒中Document文件夹的文件路径
+ */
+- (NSString *)jn_documentDir;
+
+/**
+ 拼接沙盒中Caches（缓存）文件夹的文件路径
+
+ @return 沙盒中Caches（缓存）文件夹的文件路径
+ */
+- (NSString *)jn_cachesDir;
+
+/**
+ 拼接沙盒中Tmp（临时）文件夹的文件路径
+
+ @return 沙盒中Tmp（临时）文件夹的文件路径
+ */
+- (NSString *)jn_tmpDir;
+
 @end
 
 NS_ASSUME_NONNULL_END
