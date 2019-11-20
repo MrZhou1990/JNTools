@@ -58,6 +58,26 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)jn_getIPAddressWithIPv4:(BOOL)preferIPv4;
 
+/**
+ a + b
+ */
++ (NSString *)jn_A:(NSString *)a add_B:(NSString *)b;
+
+/**
+ a - b
+ */
++ (NSString *)jn_A:(NSString *)a subtract_B:(NSString *)b;
+
+/**
+ a * b
+ */
++ (NSString *)jn_A:(NSString *)a multiply_B:(NSString *)b;
+
+/**
+ a / b
+ */
++ (NSString *)jn_A:(NSString *)a divide_B:(NSString *)b;
+
 @end
 
 NS_ASSUME_NONNULL_END

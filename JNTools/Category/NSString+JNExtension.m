@@ -11,7 +11,7 @@
 
 @implementation NSString (JNExtension)
 
-// 将当前字符串进行MD5加密
+#pragma mark -  将当前字符串进行MD5加密
 - (NSString *)jn_md5String {
     const char *cStr = self.UTF8String;
     unsigned char digest[CC_MD5_DIGEST_LENGTH];

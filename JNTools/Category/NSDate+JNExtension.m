@@ -26,29 +26,30 @@
 }
 
 #pragma mark - 获取当前系统时间
-+ (NSString *)jn_currentSystemTimeWithDateType:(JNDateType)dateType {
++ (NSString *)jn_currentSystemTimeWithDateType:(JNDateType)dateType is24Hour:(BOOL)is24Hour {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    NSString *hourType = @"hh";
+    if (is24Hour) {
+        hourType = @"HH";
+    }
     switch (dateType) {
-        case JNDateTypeYear:
-            [dateFormatter setDateFormat:@"yyyy"];
+        case JNDateTypeYearMonthDayHourMinuteSecond:
+            [dateFormatter setDateFormat:[NSString stringWithFormat:@"yyyy-MM-dd %@:mm:ss", hourType]];
             break;
-        case JNDateTypeYearMonth:
-            [dateFormatter setDateFormat:@"yyyy-MM"];
+        case JNDateTypeYearMonthDayHourMinute:
+            [dateFormatter setDateFormat:[NSString stringWithFormat:@"yyyy-MM-dd %@:mm", hourType]];
+            break;
+        case JNDateTypeYearMonthDayHour:
+            [dateFormatter setDateFormat:[NSString stringWithFormat:@"yyyy-MM-dd %@", hourType]];
             break;
         case JNDateTypeYearMonthDay:
             [dateFormatter setDateFormat:@"yyyy-MM-dd"];
             break;
-        case JNDateTypeYearMonthDayHour:
-            [dateFormatter setDateFormat:@"yyyy-MM-dd hh"];
+        case JNDateTypeYearMonth:
+            [dateFormatter setDateFormat:@"yyyy-MM"];
             break;
-        case JNDateTypeYearMonthDayHourMinute:
-            [dateFormatter setDateFormat:@"yyyy-MM-dd hh:mm"];
-            break;
-        case JNDateTypeYearMonthDayHourMinuteSecond:
-            [dateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss"];
-            break;
-        default:
-            [dateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss"];
+        case JNDateTypeYear:
+            [dateFormatter setDateFormat:@"yyyy"];
             break;
     }
     return [dateFormatter stringFromDate:[NSDate date]];
