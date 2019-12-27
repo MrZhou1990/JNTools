@@ -128,4 +128,19 @@
     return chineseCal_str;
 }
 
+#pragma mark - 获取日期的零点
+- (NSDate *)jn_dateZero {
+    NSDateComponents *dateComponents = [self dateComponentsWithDate:self];
+    int hour = (int)[dateComponents hour];
+    int minute = (int)[dateComponents minute];
+    int second = (int)[dateComponents second];
+    return [self dateByAddingTimeInterval:-(hour * 3600 + minute * 60 + second)];;
+}
+
+- (NSDateComponents *)dateComponentsWithDate:(NSDate *)date {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSUInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+    return [calendar components:unitFlags fromDate:date];
+}
+
 @end

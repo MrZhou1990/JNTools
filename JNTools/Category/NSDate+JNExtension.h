@@ -107,6 +107,13 @@ typedef NS_ENUM(NSUInteger, JNDateType) {
  */
 + (NSString*)jn_getChineseCalendarWithDate:(NSDate *)date;
 
+/**
+ 获取日期的零点
+
+ @return 返回日期的零点
+ */
+- (NSDate *)jn_dateZero;
+
 @end
 
 NS_ASSUME_NONNULL_END
