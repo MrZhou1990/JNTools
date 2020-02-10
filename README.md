@@ -1,4 +1,4 @@
-JNTools是一款用于iOS手机端开发的工具类及一些常用三方工具类的二次封装
+JNTools: iOS手机端开发的工具类
 # 使用方法
 ```
 pod 'JNTools', '0.0.4'
@@ -395,9 +395,4 @@ NSString+JNExtension.m
 @property(nonatomic, assign)CGPoint origin;
 // 拓展系统的属性，方便调用。例如：self.view.frame.size.width, 添加此分类后可直接self.view.width
 ```
-- 后续还会持续更新
-- 如有需要添加方法也可联系作者
-- QQ：928092
-- 微信：qq928092
-- 邮箱：haohao10987@163.com
 
