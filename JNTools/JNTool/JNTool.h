@@ -29,14 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSInteger)jn_randomNumberWithMax:(NSInteger)max min:(NSInteger)min;
 
 /**
- 判断一段字符串是否为空字符串
- 
- @param text 需要判断的字符串
- @return 返回字符串是否为空字符串
- */
-+ (BOOL)jn_textIsSpace:(NSString *)text;
-
-/**
  获取缓存大小
  
  @return 返回缓存大小

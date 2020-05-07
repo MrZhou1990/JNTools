@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (UIColor *)jn_colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
 
+/// 哈希码取色
+/// @param hexString 哈希码
++ (UIColor *)jn_colorWithHexString:(NSString *)hexString;
+
 /**
  生成一个随机色
 
@@ -38,6 +42,12 @@ NS_ASSUME_NONNULL_BEGIN
  @return RGB取色
  */
 + (UIColor *)jn_colorWithRGBColorRed:(CGFloat)r green:(CGFloat)g blue:(CGFloat)b alpha:(CGFloat)a;
+
+/// RGB取色
+/// @param r red
+/// @param g green
+/// @param b blue
++ (UIColor *)jn_colorWithRGBColorRed:(CGFloat)r green:(CGFloat)g blue:(CGFloat)b;
 
 @end
 

@@ -51,12 +51,6 @@
     return arc4random() % (max - min + 1) + min;
 }
 
-#pragma mark - 判断一段字符串是否为空字符串
-+ (BOOL)jn_textIsSpace:(NSString *)text {
-    NSString *result = [text stringByReplacingOccurrencesOfString:@" " withString:@""];
-    return [result isEqualToString:@""];
-}
-
 #pragma mark - 获取缓存大小
 + (NSString *)jn_getCacheSize {
     //找到沙盒Caches文件

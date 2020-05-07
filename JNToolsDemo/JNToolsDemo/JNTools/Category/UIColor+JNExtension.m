@@ -50,6 +50,11 @@
     return [UIColor colorWithRed:((float)r / 255.0f) green:((float)g / 255.0f) blue:((float)b / 255.0f) alpha:alpha];
 }
 
+#pragma mark - 哈希码取色
++ (UIColor *)jn_colorWithHexString:(NSString *)hexString {
+    return [self jn_colorWithHexString:hexString alpha:1];
+}
+
 #pragma mark - 生成一个随机色
 + (UIColor *)jn_colorWithRandomColor {
     return [UIColor colorWithRed:arc4random() % 256 / 255.0 green:arc4random() % 256 / 255.0 blue:arc4random() % 256 / 255.0 alpha:1];
@@ -58,6 +63,10 @@
 #pragma mark - RGB取色
 + (UIColor *)jn_colorWithRGBColorRed:(CGFloat)r green:(CGFloat)g blue:(CGFloat)b alpha:(CGFloat)a {
     return [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:(a)];
+}
+
++ (UIColor *)jn_colorWithRGBColorRed:(CGFloat)r green:(CGFloat)g blue:(CGFloat)b {
+    return [self jn_colorWithRGBColorRed:r green:g blue:b alpha:1];
 }
 
 @end

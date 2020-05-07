@@ -23,11 +23,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSString *dateString = @"2019-11-21 15:52:47";
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd HH-mm-ss"];
-    NSDate *date = [formatter dateFromString:dateString];
-    NSLog(@"%@", date.jn_dateZero);
+
 }
 
 @end

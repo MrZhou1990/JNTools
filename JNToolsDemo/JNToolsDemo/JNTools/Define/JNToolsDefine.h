@@ -11,9 +11,12 @@
 
 /** 打印 */
 #ifdef DEBUG
-#define JNLog(FORMAT, ...) fprintf(stderr, "类名：%s\n方法名：%s\n行号：%d\n%s\n**********\n", [[[NSString stringWithUTF8String: __FILE__] lastPathComponent] UTF8String], __func__, __LINE__, [[NSString stringWithFormat: FORMAT, ## __VA_ARGS__] UTF8String]);
+#define JNLog(FORMAT, ...) NSLog((@"\nMethod: %s\nLine: %d\n" FORMAT), __func__, __LINE__, ##__VA_ARGS__);
 #else
 #define JNLog(...)
 #endif
+
+/** 字符串是否为nil或@“” */
+#define isEmpty(str) (str == nil || [@"" isEqual:str] ? true : false)
 
 #endif /* JNToolsDefine_h */
